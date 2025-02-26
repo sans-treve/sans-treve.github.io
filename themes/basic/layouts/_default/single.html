@@ -1,10 +1,11 @@
 {{ define "main" }}
+<div class="article-header">
+  <h3 class="article-category">{{ .Page.Params.category }}</h3>
   <h1>{{ .Title }}</h1>
-
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
-  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-
+  <p class="article-author">{{ .Page.Params.author }} </p>
+  <p class="article-date">{{ .Date | time.Format "2 January 2006" }} à {{ .Date | time.Format "15h04" }}</p>
+</div>
+<div class="texte">
   {{ .Content }}
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+</div>
 {{ end }}

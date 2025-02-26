@@ -1,49 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language }}">
 
-<head>
-	<title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
-	<link rel="canonical" href="{{ .Site.BaseURL }}">
-	<link rel='alternate' type='application/rss+xml' title="{{ .Site.Title }} RSS" href='/index.xml'>
-	<link rel='stylesheet' type='text/css' href='/style.css'>
-	{{ with .Site.Params.favicon }}
-	<link rel="icon" href="{{ . }}">
-	{{ end -}}
-	<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
-	{{ if isset .Params "tags" }}
-	<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . " , " }}{{ end }}">
-	{{ end -}}
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="index, follow">
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css" type="text/css">
-	<link rel="stylesheet" href="/css/style.css" type="text/css">
-</head>
+{{ partial "head.html" . }}
 
-<body class="page_article">
-	<div class="page">
-		<div class="main">
-			<div class="wrapper hfeed">
-				<div class="content hentry" id="content">
-					<h3 class="">{{ .Page.Params.category }}</h3>
-					<h1 class="text-uppercase">{{ .Title }}</h1>
-					<div>{{ .Page.Params.author }} </div>
-					<div>{{ .Date | time.Format "2 January 2006" }} à {{ .Date | time.Format "15h04" }}</div>
-					<div class="columns">
-						<div class="column col-8 col-md-12">
-							<div class="texte">
-								<p>
-									{{ block "main" . }}
-									{{ .Content }}
-									{{ end }}
-									{{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
-									{{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+<body>
+	{{ partial "header.html" . }}
+	<div class="content">
+		{{ block "main" . }}{{ end }}
 	</div>
 </body>
 

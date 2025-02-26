@@ -1,103 +1,50 @@
 <!DOCTYPE html>
-<!--layouts/_default_baseof -->
 <html lang="{{ .Site.Language }}">
+
 <head>
 	<title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
 	<link rel="canonical" href="{{ .Site.BaseURL }}">
 	<link rel='alternate' type='application/rss+xml' title="{{ .Site.Title }} RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
-	{{ with .Site.Params.favicon }}<link rel="icon" href="{{ . }}">
+	{{ with .Site.Params.favicon }}
+	<link rel="icon" href="{{ . }}">
 	{{ end -}}
 	<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
-	{{ if isset .Params "tags" }}<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}">
+	{{ if isset .Params "tags" }}
+	<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . " , " }}{{ end }}">
 	{{ end -}}
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
 	<meta charset="utf-8">
-
-<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css" type="text/css">
-<link rel="stylesheet" href="/style.css" type="text/css">
-
-
+	<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css" type="text/css">
+	<link rel="stylesheet" href="/css/style.css" type="text/css">
 </head>
 
 <body class="page_article">
-
-
-<div class="page">
-
-	<div class="main">
-		
-		<div class="wrapper hfeed">
-		<div class="content hentry" id="content">
-
-			<h3 class="">{{ block "title" . }}{{ end }}</h3>
-
-			<h1 class="text-uppercase">{{ block "title" . }}{{ end }}</h1>
-
-			
-
-			<div class="columns">
-
-				<div class="column col-8 col-md-12">
-
-					
-					<div class="texte"><div class="spip_document_5874 spip_document spip_documents spip_document_image spip_documents_center spip_document_center spip_document_avec_legende" data-legende-len="16" data-legende-lenx="">
-<figure class="spip_doc_inner">
-
-
-		<img src="./Hamster colère - CQFD, mensuel de critique et d'expérimentation sociales_files/236_02_hamster_gillet-2-4e8a7.jpg" width="600" height="618" alt="">
-<figcaption class="spip_doc_legende">
-	 
-	 
-	 <div class="spip_doc_credits  ">Pauline Gillet
-</div>
-</figcaption></figure>
-</div>
-<p>
-{{ block "main" . }}
-{{ .Content }}
-{{ end }}
-{{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
-{{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}>
-</div>
-
-					
-
-					
-
-					
+	<div class="page">
+		<div class="main">
+			<div class="wrapper hfeed">
+				<div class="content hentry" id="content">
+					<h3 class="">{{ .Page.Params.category }}</h3>
+					<h1 class="text-uppercase">{{ .Title }}</h1>
+					<div>{{ .Page.Params.author }} </div>
+					<div>{{ .Date | time.Format "2 January 2006" }} à {{ .Date | time.Format "15h04" }}</div>
+					<div class="columns">
+						<div class="column col-8 col-md-12">
+							<div class="texte">
+								<p>
+									{{ block "main" . }}
+									{{ .Content }}
+									{{ end }}
+									{{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
+									{{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}>
+							</div>
+						</div>
+					</div>
 				</div>
-
-				<div class="column col-4 col-md-12">
-
-					<p class="text-mono">
-						
-							Paru dans <a href="https://cqfd-journal.org/CQFD-no136-decembre-2024" class="lien_rubrique"><i>CQFD</i> n°236 (décembre 2024)<img src="./Hamster colère - CQFD, mensuel de critique et d'expérimentation sociales_files/cqfd_236_baf-bdb21.jpg" class="spip_logo" width="100" height="142" alt=""></a><br>
-						
-						
-
-						<span class="auteurs">Par <span class="vcard author"><a class="url fn spip_in" href="https://cqfd-journal.org/l-equipe-de-CQFD">L’équipe de <i>CQFD</i></a></span></span><br>
-						
-							<span class="illustrateurs">Illustré par <a href="https://cqfd-journal.org/Pauline-Gillet">Pauline Gillet</a></span><br><br>
-						
-
-						Mis en ligne le <span class="published">07.01.2025</span>
-					</p>
-
-					
-
-				</div>
-
 			</div>
+		</div>
+	</div>
+</body>
 
-			
-
-		</div><!--.content-->
-		</div><!--.wrapper-->
-
-	</div><!--.main-->
-
-</div><!--.page-->
-
-<iframe id="13RwSkmT" frameborder="0" src="./Hamster colère - CQFD, mensuel de critique et d'expérimentation sociales_files/translateSandbox.html" style="width: 0px; height: 0px; display: none;"></iframe></body></html>
+</html>

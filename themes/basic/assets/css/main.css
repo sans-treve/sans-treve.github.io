@@ -1,22 +1,130 @@
+:root {
+  --primary: #c40e29;
+  --text: #2e3532;
+  --background: white;
+  --secondary-background: white;
+}
+
+
 body {
-  color: #222;
-  font-family: sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: "CooperHewitt", sans-serif;
   line-height: 1.5;
-  margin: 1rem;
-  max-width: 768px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 0 20px;
+  margin: 0;
 }
 
-header {
-  border-bottom: 1px solid #222;
-  margin-bottom: 1rem;
-}
-
-footer {
-  border-top: 1px solid #222;
-  margin-top: 1rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'CooperHewitt';
+  /* margin: 0; */
 }
 
 a {
-  color: #00e;
+  color: var(--primary);
   text-decoration: none;
+}
+
+p {
+  font-family: 'plantin';
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+h1 {
+  color: var(--primary);
+  margin: 0;
+  font-size: 3rem;
+}
+
+.content {
+  flex: 1;
+  max-width: 1000px;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Navigation */
+
+/* Article */
+.article-header {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: #535353 1px solid;
+}
+
+.article-category {
+  margin: 0;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.article-author {
+  margin: 0;
+}
+
+.article-date {
+  margin: 0;
+}
+
+/* Article */
+
+/* Article preview */
+.previews {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+a.article-preview {
+  /* border: #535353 1px solid; */
+  /* max-width: 400px; */
+  /* padding: 0.5rem; */
+  border-radius: 5px;
+}
+
+img.article-preview {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+h2.article-preview {
+  margin: 0;
+}
+
+p.article-preview {
+  margin: 0;
+  font-size: 1rem;
+  color: rgb(78, 78, 78);
+}
+
+.summary.article-preview {
+  margin: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
 }

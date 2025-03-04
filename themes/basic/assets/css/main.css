@@ -9,7 +9,7 @@
 body {
   background-color: var(--background);
   color: var(--text);
-  font-family: 'PP Nikkei Pacific';
+  font-family: 'PPNikkeiPacific-Regular';
   line-height: 1.5;
 
   display: flex;
@@ -26,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Cormorant SC';
+  font-family: 'CormorantSC-Regular';
   /* margin: 0; */
 }
 
@@ -36,7 +36,7 @@ a {
 }
 
 p {
-  font-family: 'PP Nikkei Pacific';
+  font-family: 'PPNikkeiPacific-Regular';
   margin-bottom: 0;
   font-size: 1.1rem;
 }

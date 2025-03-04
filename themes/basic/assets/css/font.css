@@ -48,22 +48,182 @@
 }
 
 @font-face {
-  font-family: 'CooperHewittMedium';
+  font-family: 'CooperHewitt-Semibold';
   src: url('/font/CooperHewitt-Semibold.otf');
   font-weight: 400;
   font-style: italic
 }
-
 @font-face {
-  font-family: 'WorkAvec';
-  src: url('//cqfd-journal.org/squelettes/css/fonts/WorkAvec-Medium.ttf');
+  font-family: 'CormorantSC-Bold';
+  src: url('/font/Cormorant_SC/CormorantSC-Bold.ttf');
   font-weight: 400;
-  font-style: normal
+  font-style: italic
 }
-
 @font-face {
-  font-family: 'WorkAvec';
-  src: url('//cqfd-journal.org/squelettes/css/fonts/WorkAvec-SemiBold.ttf');
-  font-weight: 700;
-  font-style: normal
+  font-family: 'CormorantSC-Light';
+  src: url('/font/Cormorant_SC/CormorantSC-Light.ttf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'CormorantSC-Medium';
+  src: url('/font/Cormorant_SC/CormorantSC-Medium.ttf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'CormorantSC-Regular';
+  src: url('/font/Cormorant_SC/CormorantSC-Regular.ttf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'CormorantSC-SemiBold';
+  src: url('/font/Cormorant_SC/CormorantSC-SemiBold.ttf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiJournal-Light';
+  src: url('/font/PP Nikkei/PPNikkeiJournal-Light.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiJournal-LightItalic';
+  src: url('/font/PP Nikkei/PPNikkeiJournal-LightItalic.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiJournal-Regular';
+  src: url('/font/PP Nikkei/PPNikkeiJournal-Regular.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiJournal-RegularItalic';
+  src: url('/font/PP Nikkei/PPNikkeiJournal-RegularItalic.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiJournal-Ultrabold';
+  src: url('/font/PP Nikkei/PPNikkeiJournal-Ultrabold.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiJournal-UltraboldItalic';
+  src: url('/font/PP Nikkei/PPNikkeiJournal-UltraboldItalic.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiLine-Light';
+  src: url('/font/PP Nikkei/PPNikkeiLine-Light.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiLine-LightItalic';
+  src: url('/font/PP Nikkei/PPNikkeiLine-LightItalic.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiLine-Regular';
+  src: url('/font/PP Nikkei/PPNikkeiLine-Regular.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiLine-RegularItalic';
+  src: url('/font/PP Nikkei/PPNikkeiLine-RegularItalic.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiLine-Ultrabold';
+  src: url('/font/PP Nikkei/PPNikkeiLine-Ultrabold.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiLine-UltraboldItalic';
+  src: url('/font/PP Nikkei/PPNikkeiLine-UltraboldItalic.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiMaru-Light';
+  src: url('/font/PP Nikkei/PPNikkeiMaru-Light.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiMaru-LightItalic';
+  src: url('/font/PP Nikkei/PPNikkeiMaru-LightItalic.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiMaru-Regular';
+  src: url('/font/PP Nikkei/PPNikkeiMaru-Regular.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiMaru-RegularItalic';
+  src: url('/font/PP Nikkei/PPNikkeiMaru-RegularItalic.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiMaru-Ultrabold';
+  src: url('/font/PP Nikkei/PPNikkeiMaru-Ultrabold.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiMaru-UltraboldItalic';
+  src: url('/font/PP Nikkei/PPNikkeiMaru-UltraboldItalic.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiPacific-Light';
+  src: url('/font/PP Nikkei/PPNikkeiPacific-Light.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiPacific-LightItalic';
+  src: url('/font/PP Nikkei/PPNikkeiPacific-LightItalic.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiPacific-Regular';
+  src: url('/font/PP Nikkei/PPNikkeiPacific-Regular.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiPacific-RegularItalic';
+  src: url('/font/PP Nikkei/PPNikkeiPacific-RegularItalic.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: 'PPNikkeiPacific-Ultrabold';
+  src: url('/font/PP Nikkei/PPNikkeiPacific-Ultrabold.otf');
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+ font-family: 'PPNikkeiPacific-UltraboldItalic';
+  src: url('/font/PP Nikkei/PPNikkeiPacific-UltraboldItalic.otf');
+  font-weight: 400;
+  font-style: italic
 }

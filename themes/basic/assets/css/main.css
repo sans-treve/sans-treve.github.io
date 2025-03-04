@@ -1,15 +1,15 @@
 :root {
-  --primary: #c40e29;
+  --primary: #8b2635;
   --text: #2e3532;
-  --background: white;
-  --secondary-background: white;
+  --background: #e0e2db;
+  --secondary-background: #d2d4c8;
 }
 
 
 body {
   background-color: var(--background);
   color: var(--text);
-  font-family: "CooperHewitt", sans-serif;
+  font-family: 'PP Nikkei Pacific';
   line-height: 1.5;
 
   display: flex;
@@ -26,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'CooperHewitt';
+  font-family: 'Cormorant SC';
   /* margin: 0; */
 }
 
@@ -36,7 +36,7 @@ a {
 }
 
 p {
-  font-family: 'plantin';
+  font-family: 'PP Nikkei Pacific';
   margin-bottom: 0;
   font-size: 1.1rem;
 }
@@ -69,7 +69,7 @@ nav {
 .article-header {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: #535353 1px solid;
+  border-bottom: #d2d4c8 1px solid;
 }
 
 .article-category {
@@ -116,7 +116,7 @@ h2.article-preview {
 p.article-preview {
   margin: 0;
   font-size: 1rem;
-  color: rgb(78, 78, 78);
+  color: #2e3532;
 }
 
 .summary.article-preview {

@@ -2,6 +2,7 @@
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
+  <h1 class="title">Sans-Trêve</h1>
   <nav>
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
   </nav>
@@ -29,6 +30,5 @@
           {{- end }}
         {{- end -}}
       >{{ $name }}</a>
-    </li>
   {{- end }}
 {{- end }}

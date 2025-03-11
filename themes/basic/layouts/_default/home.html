@@ -6,12 +6,21 @@
 <h2>Recent Articles</h2>
 <div class="previews">
   {{ range site.RegularPages }}
-  <a class="article-preview" href="{{ .RelPermalink }}">
-    <img class="article-preview" src="{{ .Params.image }}" alt="{{ .Params.alt }}">
-    <h2 class="article-preview"> {{ .LinkTitle }} </h2>
-    <p class="date article-preview">{{ .Date.Format "2006-01-02" }}</p>
-    <p class="summary article-preview">{{ .Content | plainify | truncate 300 }}</p>
-  </a>
+  <div class="preview">
+      <div class="preview-image">
+      <a class="article-preview" href="{{ .RelPermalink }}">
+        <img class="preview-image-photo" src="{{ .Params.image }}" alt="{{ .Params.alt }}">
+      </a>
+      </div>
+      <div class="preview-text">
+      <a class="article-preview" href="{{ .RelPermalink }}">
+        <h3 class="article-category">{{ .Page.Params.category }}</h3>
+        <h2 class="article-preview"> {{ .LinkTitle }} </h2>
+        <p class="date article-preview">{{ .Date.Format "2006-01-02" }}</p>
+        <p class="summary article-preview">{{ .Content | plainify | truncate 300 }}</p>
+      </a>
+      </div>
+  </div>
   {{ end }}
 </div>
 {{ end }}

@@ -8,4 +8,16 @@
 <div class="texte">
   {{ .Content }}
 </div>
+
+
+<h2 class="preview-footer">Vous aimerez aussi</h2>
+<div class="previews">
+  {{ range first 3 site.RegularPages }}
+  <a class="article-preview" href="{{ .RelPermalink }}">
+    <img class="article-preview" src="{{ .Params.image }}" alt="{{ .Params.alt }}">
+    <h2 class="article-preview"> {{ .LinkTitle }} </h2>
+    <p class="date article-preview">{{ .Date.Format "2006-01-02" }}</p>
+  </a>
+  {{ end }}
+</div>
 {{ end }}

@@ -227,3 +227,29 @@
   font-weight: 400;
   font-style: italic
 }
+
+@font-face {
+    font-family: 'Baskervvol Base';
+    src: url('baskervvol/BBBBaskervvol-Base.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Baskervvol Fondue';
+    src: url('baskervvol/BBBBaskervvol-Fondue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Homoneta';
+    src: url('homoneta/Homoneta-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Homoneta';
+    src: url('homoneta/Homoneta-Italic.otf');
+    font-weight: normal;
+    font-style: italic;
+}

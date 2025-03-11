@@ -1,15 +1,17 @@
 :root {
-  --primary: #8b2635;
-  --text: #2e3532;
-  --background: #e0e2db;
+  --primary: #3137FD;
+  --text: #54626F;
+  --background: #F8F8FF;
   --secondary-background: #d2d4c8;
+  --font-paragraph: 'PPNikkeiPacific-Pacific';
+  --font-heading: 'CormorantSC-Regular';
 }
 
 
 body {
   background-color: var(--background);
   color: var(--text);
-  font-family: 'PPNikkeiPacific-Regular';
+  font-family: var(--font-paragraph);
   line-height: 1.5;
 
   display: flex;
@@ -26,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'CormorantSC-Regular';
+  font-family: var(--font-heading);
   /* margin: 0; */
 }
 
@@ -36,7 +38,7 @@ a {
 }
 
 p {
-  font-family: 'PPNikkeiPacific-Regular';
+  font-family: var(--font-paragraph);
   margin-bottom: 0;
   font-size: 1.1rem;
 }
@@ -116,7 +118,7 @@ h2.article-preview {
 p.article-preview {
   margin: 0;
   font-size: 1rem;
-  color: #2e3532;
+  color: var(--text);
 }
 
 .summary.article-preview {

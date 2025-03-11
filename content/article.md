@@ -22,3 +22,14 @@ En somme, les développeurs sont des personnes passionnées, créatives et solid
 > "Les développeurs sont des personnes passionnées, créatives et solidaires, ce qui les rend vraiment sympathiques." - Anonyme
 
 > "Les développeurs sont des personnes passionnées, créatives et solidaires, ce qui les rend vraiment sympathiques." - Anonyme
+
+
+## Conclusion
+
+En conclusion, les développeurs sont:
+- Passionnés
+- Créatifs
+- Solidaires
+
+Et c'est ce qui les rend vraiment sympathiques !
+```

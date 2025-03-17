@@ -4,7 +4,8 @@ draft = false
 title = 'Pourquoi les dev ne sont vraiment sympas ?'
 image = 'https://static.fnac-static.com/multimedia/Images/FR/NR/92/9c/f3/15965330/1507-1/tsp20231109161409/Bitume-Caviar.jpg'
 author = 'dev'
-category = 'Développement'
+categories = ['development']
+tags = ['lifestyle']
 +++
 
 

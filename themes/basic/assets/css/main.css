@@ -60,7 +60,7 @@ h1 {
 
 .back-footer {
   width: 100%;
-  background-color: #ff5649;
+  background-color: var(--color-text);
   border-top: black 1px solid;
   border-bottom: black 1px solid;
   margin-top: 3rem;

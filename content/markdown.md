@@ -2,6 +2,7 @@
 date = '2025-03-04T09:41:13Z'
 draft = false
 title = 'Markdown'
+categories = ['publish']
 +++
 
 ## Table of contents

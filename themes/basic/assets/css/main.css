@@ -339,15 +339,25 @@ button.big-article-preview i {
   padding-left: 0.7rem;
 }
 
+
+@keyframes lolipop {
+  0% {
+    height: 16vh;
+  }
+  100% {
+    height: 100vh;
+  }
+}
+
 .background-top {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 100vh;
-  /* background: linear-gradient(0deg, var(--background) 40%, var(--secondary-background) 10%); */
   background-color: var(--secondary-background);
   z-index: -999;
+  animation: lolipop 0.5s ease-out;
 }
 
 /* Article preview footer */

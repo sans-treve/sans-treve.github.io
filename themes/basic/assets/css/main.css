@@ -116,10 +116,6 @@ nav a:hover {
   border-bottom: 2px solid var(--primary);
 }
 
-nav a.active {
-  /* border-bottom: 2px solid var(--primary); */
-}
-
 nav h1 {
   font-size: 1.5rem;
   margin-right: 10px;
@@ -133,8 +129,6 @@ nav h1 {
 .back-footer {
   width: 100%;
   background-color: #ff5649;
-  border-top: black 1px solid;
-  border-bottom: black 1px solid;
   margin-top: 3rem;
   display: flex;
   align-items: center;

@@ -5,14 +5,22 @@ title = 'My New Hugo Site'
 [[menus.main]]
 name = 'Home'
 pageRef = '/'
+weight = 10
 
 [[menus.main]]
-name = 'Lorem'
-pageRef = '/ex'
+name = 'Categories'
+pageRef = '/categories'
+weight = 20
 
 [[menus.main]]
-name = 'Ipsum'
-pageRef = '/exa'
+name = 'Contribuer'
+pageRef = '/contribuer'
+weight = 40
+
+[[menus.main]]
+name = 'A propos'
+pageRef = '/apropos'
+weight = 50
 
 [module]
   [module.hugoVersion]

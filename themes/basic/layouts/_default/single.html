@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="article-header">
-  <h3 class="article-category">{{ .Page.Params.category }}</h3>
+  <h3 class="article-category">{{ index (.Page.Params.categories) 0 }}</h3>
   <h1>{{ .Title }}</h1>
   <div class="article-author">
     <img class="article-author" src="https://cdn-images.dzcdn.net/images/artist/bcc27c5d4f98e764f00cc6ecf7ee5483/500x500-000000-80-0-0.jpg" alt="Photo autheur">

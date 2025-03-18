@@ -4,7 +4,7 @@ draft = false
 title = 'Pourquoi les dev ne sont vraiment sympas ?'
 image = 'https://www.newmodelradio.sk/wp-content/uploads/2018/05/Altin-Gun-On.jpg'
 author = 'dev'
-category = 'Développement'
+categories = [ 'Développement' ]
 +++
 
 

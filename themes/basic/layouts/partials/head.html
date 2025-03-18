@@ -1,5 +1,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" site.Title .Title }}{{ end }}</title>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="{{ site.Params.twittercard_site }}"/>
+<meta name="twitter:creator" content="{{ site.Params.twittercard_creator }}"/>
+<meta name="twitter:image" content="{{ if .IsHome }}{{ site.Params.twittercard_previewimage}}{{ else }}{{ .Params.image }}{{ end }}"/>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}

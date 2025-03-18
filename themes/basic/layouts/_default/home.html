@@ -1,4 +1,20 @@
 {{ define "main" }}
+<div class="background-top"></div>
+<div class="big-article-preview-container">
+  <button id="prev-button" class="big-article-preview">
+    <i class="fa fa-chevron-left"></i>
+  </button>
+  <button id="next-button" class="big-article-preview">
+    <i class="fa fa-chevron-right"></i>
+  </button>
+  {{range first 1 .Site.RegularPages}}
+    <div class="big-article-preview">
+      <img class="big-article-preview" src="{{ .Params.image }}" alt="">
+      <h2 class="big-article-preview">{{ index .Params.categories 0 }}</h3>
+      <h1 class="big-article-preview">{{ .LinkTitle }}</h2>
+    </div>
+  {{ end }}
+</div>
 <h2>Recent Articles</h2>
 <div class="previews">
   {{ range site.RegularPages }}

@@ -114,6 +114,14 @@ nav a {
   margin: 0 1rem;
 }
 
+nav.home a {
+  color: white !important;
+}
+
+nav.home {
+  border-bottom: none;
+}
+
 nav a:hover {
   border-bottom: 2px solid var(--primary);
 }

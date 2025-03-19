@@ -1,12 +1,12 @@
 {{- $page := .page }}
 {{- $menuID := .menuID }}
 
+<h1 class="title">Sans-Trêve</h1>
+<nav class="{{ if $page.IsHome }}home{{ end }}">
 {{- with index site.Menus $menuID }}
-  <h1 class="title">Sans-Trêve</h1>
-  <nav>
-      {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
-  </nav>
+  {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
 {{- end }}
+</nav>
 
 {{- define "partials/inline/menu/walk.html" }}
   {{- $page := .page }}

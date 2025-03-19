@@ -20,6 +20,8 @@ body {
   /* padding: 0 20px; */
   padding: 0;
   margin: 0;
+
+  min-height: 100vh;
 }
 
 h1,
@@ -78,6 +80,7 @@ blockquote p {
 
 .content {
   flex: 1;
+  width: 100%;
   max-width: 1000px;
   margin: 0 20px;
   display: flex;
@@ -112,6 +115,14 @@ nav a {
   border-bottom: 2px solid transparent;
   padding: 1.2rem 0rem;
   margin: 0 1rem;
+}
+
+nav.home a {
+  color: white !important;
+}
+
+nav.home {
+  border-bottom: none;
 }
 
 nav a:hover {
@@ -227,6 +238,11 @@ img.article-preview {
 
 h2.article-preview {
   margin: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 p.article-preview {
@@ -245,7 +261,122 @@ p.article-preview {
   -webkit-box-orient: vertical;
 }
 
+.big-article-preview-container {
+  display: flex;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  position: relative;
+  cursor: pointer;
+}
+
+a.big-article-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  position: relative;
+  background-color: black;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+img.big-article-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  backface-visibility: hidden;
+  transition: transform 0.5s;
+  opacity: 0.6;
+}
+
+h1.big-article-preview {
+  color: white;
+  font-size: 2.3rem;
+  margin: 0;
+  border-radius: 5px;
+  padding-bottom: 2rem;
+  text-align: center;
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+h2.big-article-preview {
+  color: #e1e1e1;
+  font-size: 1.5rem;
+  margin: 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+button.big-article-preview {
+  /* display: none; */
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+button.big-article-preview:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+button.big-article-preview i {
+  font-size: 1.2rem !important;
+  margin: 0;
+}
+
+#prev-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding-left: 1rem;
+  padding-right: 0.7rem;
+}
+
+#next-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding-right: 1rem;
+  padding-left: 0.7rem;
+}
+
+
+@keyframes lolipop {
+  0% {
+    height: 16vh;
+  }
+  100% {
+    height: 100vh;
+  }
+}
+
+.background-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background-color: var(--secondary-background);
+  z-index: -999;
+  animation: lolipop 0.5s ease-out;
+}
+
 /* Article preview footer */
+
 h2.preview-footer {
   text-align: center;
   padding-top: 2rem;

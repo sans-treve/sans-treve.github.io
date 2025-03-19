@@ -1,10 +1,10 @@
 +++
-date = '2025-02-18T20:40:38+01:00'
+date = '2025-03-16T20:40:38+01:00'
 draft = false
-title = 'Pourquoi les dev ne sont vraiment sympas ?'
-image = 'https://static.fnac-static.com/multimedia/Images/FR/NR/92/9c/f3/15965330/1507-1/tsp20231109161409/Bitume-Caviar.jpg'
+title = "Ces chevaux qu'on ne connait pas assez"
+image = 'https://t2.genius.com/unsafe/600x600/https://images.genius.com/6f31872da2a298a17efd148ede383c6f.1000x1000x1.jpg'
 author = 'dev'
-categories = [ 'Développement' ]
+categories = [ 'Cheval' ]
 +++
 
 

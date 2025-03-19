@@ -1,10 +1,10 @@
 +++
-date = '2025-02-18T20:40:38+01:00'
+date = '2025-03-17T20:40:38+01:00'
 draft = false
-title = 'Pourquoi les dev ne sont vraiment sympas ?'
+title = "Les titres change trop souvent d'apres les dernier sondages"
 image = 'https://www.newmodelradio.sk/wp-content/uploads/2018/05/Altin-Gun-On.jpg'
 author = 'dev'
-categories = [ 'Développement' ]
+categories = [ 'Sondage' ]
 +++
 
 

@@ -1,8 +1,8 @@
 +++
-date = '2025-02-18T20:40:38+01:00'
+date = '2025-03-13T20:40:38+01:00'
 draft = false
-title = 'Pourquoi les dev ne sont vraiment sympas ?'
-image = 'https://static.fnac-static.com/multimedia/Images/FR/NR/92/9c/f3/15965330/1507-1/tsp20231109161409/Bitume-Caviar.jpg'
+title = 'Les articles trop longs risquent-ils de devenir une tendance chez les jeunes ?'
+image = 'https://i.scdn.co/image/ab67616d00001e026d59695e16cdf5e16d423e63'
 author = 'dev'
 categories = [ 'Développement' ]
 +++

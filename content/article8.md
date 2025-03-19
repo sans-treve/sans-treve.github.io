@@ -1,10 +1,10 @@
 +++
-date = '2025-02-18T20:40:38+01:00'
+date = '2025-03-11T20:40:38+01:00'
 draft = false
 title = 'Pourquoi les dev ne sont vraiment sympas ?'
-image = 'https://static.fnac-static.com/multimedia/Images/FR/NR/92/9c/f3/15965330/1507-1/tsp20231109161409/Bitume-Caviar.jpg'
+image = 'https://fr.arabia24.org/wp-content/uploads/2019/10/Flag-of_Algeria.jpg'
 author = 'dev'
-categories = [ 'Développement' ]
+categories = [ 'Algerie' ]
 +++
 
 

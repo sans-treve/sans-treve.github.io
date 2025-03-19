@@ -8,11 +8,11 @@
     <i class="fa fa-chevron-right"></i>
   </button>
   {{range first 3 .Site.RegularPages}}
-    <div class="big-article-preview" style="display: {{ if eq . (index .Site.RegularPages 0) }}flex{{ else }}none{{ end }};">
+    <a class="big-article-preview" style="display: {{ if eq . (index .Site.RegularPages 0) }}flex{{ else }}none{{ end }};" href="{{ .RelPermalink }}">
       <img class="big-article-preview" src="{{ .Params.image }}" alt="">
       <h2 class="big-article-preview">{{ index .Params.categories 0 }}</h3>
       <h1 class="big-article-preview">{{ .LinkTitle }}</h2>
-    </div>
+    </a>
   {{ end }}
 </div>
 <h2>Recent Articles</h2>

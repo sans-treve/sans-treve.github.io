@@ -1,28 +1,40 @@
 let currentArticle = 0
+let timeout = null
 
 const showArticle = (index) => {
-  const articles = $("div.big-article-preview")
+  const articles = $("a.big-article-preview")
   articles[currentArticle].style.display = "none"
   articles[index].style.display = "flex"
+  newTimeout()
+}
 
+const newTimeout = () => {
+  clearTimeout(timeout)
+  timeout = setTimeout(nextArticle, 10 * 1000)
+}
+
+const nextArticle = () => {
+  let index = currentArticle + 1
+  if (index > 2) {
+    index = 0
+  }
+  showArticle(index)
+  currentArticle = index
+}
+
+const prevArticle = () => {
+  let index = currentArticle - 1
+  if (index < 0) {
+    index = 2
+  }
+  showArticle(index)
+  currentArticle = index
 }
 
 $(document).ready(() => {
-  $("#next-button").click(() => {
-    let nextArticle = currentArticle + 1
-    if (nextArticle > 2) {
-      nextArticle = 0
-    }
-    showArticle(nextArticle)
-    currentArticle = nextArticle
-  })
+  $("#next-button").click(nextArticle)
 
-  $("#prev-button").click(() => {
-    let prevArticle = currentArticle - 1
-    if (prevArticle < 0) {
-      prevArticle = 2
-    }
-    showArticle(prevArticle)
-    currentArticle = prevArticle
-  })
+  $("#prev-button").click(prevArticle)
+
+  newTimeout()
 })

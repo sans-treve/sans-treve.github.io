@@ -88,6 +88,24 @@ blockquote p {
   justify-content: center;
 }
 
+/* Contribute */
+
+.contribute {
+  button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white; /* Blue */}
+}
+
+
 /* Navigation */
 
 .title {

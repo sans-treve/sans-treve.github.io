@@ -135,13 +135,6 @@ nav h1 {
   color: var(--text);
 }
 
-/* Preview */
-
-li.page-item {
-  display: inline;
-}
-
-
 /* Navigation */
 
 /* Footer */
@@ -391,3 +384,39 @@ h2.preview-footer {
   margin-bottom: 2rem;
   border-top: 2px solid var(--secondary-text);
 }
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top: 4rem;
+  padding: 0;
+}
+.pagination a {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  background-color: var(--secondary-background);
+  color: white;
+}
+.pagination a:hover {
+  background-color: var(--primary);
+}
+.pagination a.active {
+  background-color: var(--primary);
+  color: white;
+}
+.pagination a.disabled {
+  background-color: var(--secondary-text);
+  color: white;
+  pointer-events: none;
+}
+
+.page-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Pagination */

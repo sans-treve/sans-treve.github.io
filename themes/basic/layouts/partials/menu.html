@@ -23,12 +23,24 @@
         {{- $name = . }}
       {{- end }}
     {{- end }}
-      <a
+    <div class="dropdown">
+      <button class="dropbtn"
         {{- range $k, $v := $attrs }}
           {{- with $v }}
             {{- printf " %s=%q" $k $v | safeHTMLAttr }}
           {{- end }}
         {{- end -}}
-      >{{ $name }}</a>
+      >{{ $name }}</button>
+      <div class="dropdown-content">
+      {{- $attrs := dict "href" .URL }}
+      {{ range $name, $taxonomy := site.Taxonomies.categories }}
+        <a href=" 
+         {{- printf "categories/%s" $name | safeHTMLAttr }}
+        ">
+        {{ $name }}
+        </a>
+      {{- end -}}
+      </div>
+    </div>
   {{- end }}
 {{- end }}

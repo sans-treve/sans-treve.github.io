@@ -17,7 +17,7 @@
 </div>
 <h2>Recent Articles</h2>
 <div class="previews">
-  {{ range (.Paginate site.RegularPages 9).Pages }}
+  {{ range (.Paginate site.RegularPages 1).Pages }}
   <a class="article-preview" href="{{ .RelPermalink }}">
     <img class="article-preview" src="{{ .Params.image }}" alt="{{ .Params.alt }}">
     <h2 class="article-preview"> {{ .LinkTitle }} </h2>

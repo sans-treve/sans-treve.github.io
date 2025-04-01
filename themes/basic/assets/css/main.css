@@ -398,19 +398,18 @@ h2.preview-footer {
   padding: 0.5rem 1rem;
   margin: 0 0.5rem;
   border-radius: 5px;
-  background-color: var(--secondary-background);
-  color: white;
 }
-.pagination a:hover {
+.pagination :not(.active) a:hover {
+  color: white;
   background-color: var(--primary);
 }
-.pagination a.active {
-  background-color: var(--primary);
-  color: white;
+
+.pagination .active a {
+  border: 1px solid var(--primary);
 }
-.pagination a.disabled {
-  background-color: var(--secondary-text);
-  color: white;
+
+.pagination .disabled a {
+  color: black;
   pointer-events: none;
 }
 
@@ -419,4 +418,5 @@ h2.preview-footer {
   justify-content: center;
   align-items: center;
 }
+
 /* Pagination */

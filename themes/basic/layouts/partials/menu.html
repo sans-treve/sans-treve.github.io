@@ -23,26 +23,32 @@
         {{- $name = . }}
       {{- end }}
     {{- end }}
-    <div class="dropdown">
-      <button class="dropbtn"
-        {{- range $k, $v := $attrs }}
-          {{- with $v }}
-            {{- printf " %s=%q" $k $v | safeHTMLAttr }}
-          {{- end }}
-        {{- end -}}
-      >{{ $name }}</button>
       {{- if eq $name "Categories" }}
-        <div class="dropdown-content">
-          {{- $attrs := dict "href" .URL }}
-          {{ range $name, $taxonomy := site.Taxonomies.categories }}
-            <a href=" 
-            {{- printf "/categories/%s" $name | safeHTMLAttr }}
-            ">
-            {{ $name }}
-            </a>
+        <div class="dropdown">
+          <a class="dropbtn"
+            {{- range $k, $v := $attrs }}
+              {{- with $v }}
+                {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+              {{- end }}
+            {{- end -}}
+          >{{ $name }}</a>
+          <div class="dropdown-content">
+            {{- $attrs := dict "href" .URL }}
+            {{ range $name, $taxonomy := site.Taxonomies.categories }}
+              <a href="{{- printf "/categories/%s" $name | safeHTMLAttr }}">
+              {{ $name }}
+              </a>
+            {{- end -}}
+          </div>
+         </div>
+      {{- else -}}
+        <a
+          {{- range $k, $v := $attrs }}
+            {{- with $v }}
+              {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+            {{- end }}
           {{- end -}}
-        </div>
+        >{{ $name }}</a>
       {{- end }}
-    </div>
   {{- end }}
 {{- end }}

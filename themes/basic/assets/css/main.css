@@ -135,6 +135,13 @@ nav h1 {
   color: var(--text);
 }
 
+/* Preview */
+
+li.page-item {
+  display: inline;
+}
+
+
 /* Navigation */
 
 /* Footer */

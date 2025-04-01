@@ -26,4 +26,8 @@
   </a>
   {{ end }}
 </div>
+  {{ with .OutputFormats.Get "rss" }}
+  {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+  {{ end }}
+<a href="http://localhost:1313/index.xml">FLUX RSS</a>
 {{ end }}

@@ -1,0 +1,4 @@
+[submodule "static/sans-treve-media"]
+	path = static/sans-treve-media
+	url = https://github.com/sans-treve-media
+	branch = main

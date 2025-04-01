@@ -116,9 +116,6 @@ nav button {
   border-bottom: 2px solid transparent;
   padding: 1.2rem 0rem;
   margin: 0 1rem;
-}
-
-nav.home button {
   /*dropbtn*/
   background-color: transparent;
   background-repeat: no-repeat;
@@ -130,17 +127,17 @@ nav.home button {
   border: none;
 }
 
-nav.home .dropdown-content {
+nav .dropdown-content {
   /*dropdown-content*/
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #ffd7d7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 10;
 }
 
-nav.home .dropdown-content a {
+nav .dropdown-content a {
   /*dropdown-content a*/
   color: black;
   padding: 12px 16px;
@@ -148,18 +145,18 @@ nav.home .dropdown-content a {
   display: block;
 }
 
-nav.home .dropdown {
+nav .dropdown {
   position: relative;
   display: inline-block;
 }
 
-nav.home .dropdown-content a:hover {background-color: #ddd;}
+nav .dropdown-content a:hover {background-color: rgba(250, 130, 130, 0.178);}
 
-nav.home .dropdown:hover .dropdown-content {display: block;}
+nav .dropdown:hover .dropdown-content {display: block;}
 
-nav.home .dropdown:hover .dropbtn {background-color: #3e8e41;}
+nav .dropdown:hover .dropbtn {background-color: rgba(250, 130, 130, 0.178);}
 
-nav.home {
+nav {
   border-bottom: none;
 }
 

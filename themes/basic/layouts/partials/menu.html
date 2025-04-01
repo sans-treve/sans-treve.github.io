@@ -31,16 +31,18 @@
           {{- end }}
         {{- end -}}
       >{{ $name }}</button>
-      <div class="dropdown-content">
-      {{- $attrs := dict "href" .URL }}
-      {{ range $name, $taxonomy := site.Taxonomies.categories }}
-        <a href=" 
-         {{- printf "categories/%s" $name | safeHTMLAttr }}
-        ">
-        {{ $name }}
-        </a>
-      {{- end -}}
-      </div>
+      {{- if eq $name "Categories" }}
+        <div class="dropdown-content">
+          {{- $attrs := dict "href" .URL }}
+          {{ range $name, $taxonomy := site.Taxonomies.categories }}
+            <a href=" 
+            {{- printf "/categories/%s" $name | safeHTMLAttr }}
+            ">
+            {{ $name }}
+            </a>
+          {{- end -}}
+        </div>
+      {{- end }}
     </div>
   {{- end }}
 {{- end }}

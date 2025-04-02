@@ -4,6 +4,7 @@
   --secondary-text: #dadada;
   --background: white;
   --secondary-background: #ff5649;
+  --light-background: #ffebe9;
   --border-color: #3e3e3e;
 }
 
@@ -133,12 +134,15 @@ nav .dropbtn {
   border-bottom: 2px solid transparent;
   padding: 1.2rem 1rem;
 }
+nav.home .dropdown-content {
+  background-color: var(--secondary-background);
+}
 
 nav .dropdown-content {
   display: none;
   position: absolute;
   top: 2.5rem;
-  background-color: #ffd7d7;
+  background-color: var(--light-background);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 10;

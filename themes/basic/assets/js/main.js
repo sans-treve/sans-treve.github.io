@@ -31,10 +31,20 @@ const prevArticle = () => {
   currentArticle = index
 }
 
+const goDown = () => {
+  // scroll down 100vh
+  // window.scrollTo(0, window.scrollY + window.innerHeight, {
+  //   behavior: "smooth",
+  // })
+  $('html, body').animate({scrollTop: $(window).height()}, 'slow');
+}
+
 $(document).ready(() => {
   $("#next-button").click(nextArticle)
 
   $("#prev-button").click(prevArticle)
+
+  $("#go-down").click(goDown)
 
   newTimeout()
 })

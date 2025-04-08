@@ -8,3 +8,7 @@
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+{{ with .OutputFormats.Get "rss" }}
+{{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+{{ end }}
+

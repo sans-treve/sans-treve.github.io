@@ -5,7 +5,7 @@ title = 'Markdown'
 categories = ['publish']
 author = 'auteur'
 description = 'LA FIN DU MONDE!!'
-image = '/static/sans-treve-media/logo/logo1.jpeg'
+image = '/sans-treve-media/logo/logo1.jpeg'
 +++
 
 ## Table of contents

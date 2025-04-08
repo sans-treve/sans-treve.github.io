@@ -1,11 +1,10 @@
 baseURL = 'https://sans-treve.org/'
 languageCode = 'fr-fr'
-title = 'Sans-trêve'
+title = 'Sans-treve'
 theme = 'basic'
 
 # Twitter cards
 [Params]
 	twittercard_site = "@sans-treve"
 	twittercard_creator = "@sans-treve"
-	twittercard_previewimage = "/static/sans-treve-media/logo/logo1.jpeg"
-	twitter_description = "Média d'intervention pour la révolution !"
+	twittercard_previewimage = "https://t2.genius.com/unsafe/600x600/https://images.genius.com/6f31872da2a298a17efd148ede383c6f.1000x1000x1.jpg"

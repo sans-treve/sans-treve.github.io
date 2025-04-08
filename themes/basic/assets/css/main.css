@@ -401,11 +401,11 @@ h2.preview-footer {
 }
 .pagination :not(.active) a:hover {
   color: white;
-  background-color: var(--primary);
+  background-color: var(--secondary-background);
 }
 
 .pagination .active a {
-  border: 1px solid var(--primary);
+  border: 1px solid var(--secondary-background);
 }
 
 .pagination .disabled a {

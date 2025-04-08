@@ -128,10 +128,11 @@ code {
   text-align: center;
   min-height: 58vh;
   gap: 2rem;
-
 }
 
 .contribute {
+  position: relative;
+
   h1 {
     color: white;
     font-size: 2.5rem;
@@ -163,6 +164,7 @@ code {
   }
 
   .fa {
+    /* display: none; */
     position: absolute;
     bottom: 0;
     padding-top: 1.5rem;
@@ -389,6 +391,7 @@ h1.big-article-preview {
   border-radius: 5px;
   margin-bottom: 2rem;
   text-align: center;
+  padding: 0 2rem;
 
   overflow: hidden;
   display: -webkit-box;
@@ -458,7 +461,7 @@ button.big-article-preview i {
   top: 0;
   left: 0;
   right: 0;
-  height: 100vh;
+  height: 100lvh;
   background-color: var(--secondary-background);
   z-index: -999;
   /* animation: lolipop 0.5s ease-out; */
@@ -516,7 +519,8 @@ h2.preview-footer {
   }
   
   .contribute {
-    min-height: calc(100vh - 78px - 61.4px - 12.8px);
+    min-height: calc(100dvh - 78px - 61.4px - 12.8px);
+    margin-bottom: calc(100lvh - 100dvh);
 
     h1 {
       font-size: 2rem;

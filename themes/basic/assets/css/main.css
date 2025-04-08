@@ -474,6 +474,42 @@ h2.preview-footer {
   border-top: 2px solid var(--secondary-text);
 }
 
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top: 4rem;
+  padding: 0;
+}
+.pagination a {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+}
+.pagination :not(.active) a:hover {
+  color: white;
+  background-color: var(--secondary-background);
+}
+
+.pagination .active a {
+  border: 1px solid var(--secondary-background);
+}
+
+.pagination .disabled a {
+  color: black;
+  pointer-events: none;
+}
+
+.page-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pagination */
+
 @media screen and (max-width: 768px) {
   .big-article-preview-container {
     display: none;

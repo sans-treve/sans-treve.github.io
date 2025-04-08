@@ -7,5 +7,5 @@ theme = 'basic'
 [Params]
 	twittercard_site = "@sans-treve"
 	twittercard_creator = "@sans-treve"
-	twittercard_previewimage = "/static/sans-treve-media/logo/logo1.jpeg"
+	twittercard_previewimage = "/sans-treve-media/logo/logo1.jpeg"
 	twitter_description = "Média d'intervention pour la révolution !"

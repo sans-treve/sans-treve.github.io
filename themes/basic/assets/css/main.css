@@ -9,9 +9,9 @@
   --color-border: #CCC5B9;
   --color-code-border: rgb(220, 220, 220);
   --color-code-background: rgb(243, 243, 243);
-  --font-body: "plantin";
-  --font-headings: "CooperHewitt";
-  --font-title: var(--font-headings);
+  --font-body: "Adelphe Floreal";
+  --font-headings: "Cormorant SC";
+  --font-title: "Aero";
   --font-secondary: var(--font-body);
 }
 

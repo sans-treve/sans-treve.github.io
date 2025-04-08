@@ -7,3 +7,6 @@ public
 .DS_Store 
 *.exe
 *.lock
+/static/
+/content/image*.md
+*.jpg

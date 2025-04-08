@@ -3,6 +3,9 @@ date = '2024-03-04T09:41:13Z'
 draft = false
 title = 'Markdown'
 categories = ['publish']
+author = 'auteur'
+description = 'LA FIN DU MONDE!!'
+image = '/sans-treve-media/logo/logo1.jpeg'
 +++
 
 ## Table of contents

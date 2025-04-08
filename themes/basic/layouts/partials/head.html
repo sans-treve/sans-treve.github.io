@@ -1,10 +1,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" site.Title .Title }}{{ end }}</title>
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="{{ site.Params.twittercard_site }}"/>
 <meta name="twitter:creator" content="{{ site.Params.twittercard_creator }}"/>
 <meta name="twitter:image" content="{{ if .IsHome }}{{ site.Params.twittercard_previewimage}}{{ else }}{{ .Params.image }}{{ end }}"/>
+<meta name="twitter:title" content="{{ if .IsHome }}{{ site.Params.title }}{{ else }}{{ .Params.title }}{{ end }}"/>
+<meta name="twitter:description" content="{{ if .IsHome }}{{ site.Params.twitter_description }}{{ else }}{{ .Params.description }}{{ end }}"/>
+<meta name="og:title" content='{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" site.Title .Title }}{{ end }}'/>
+<meta name="og:description" content="{{ if .IsHome }}{{ site.Params.twitter_description }}{{ else }}{{ .Params.description }}{{ end }}"/>
+<meta name="og:image" content="{{ if .IsHome }}{{ site.Params.twittercard_previewimage}}{{ else }}{{ .Params.image }}{{ end }}"/>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+{{ with .OutputFormats.Get "rss" }}
+{{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+{{ end }}
+

@@ -116,7 +116,7 @@ code {
   margin: 0 15px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 /* Contribute */
@@ -166,10 +166,10 @@ code {
   .fa {
     display: none;
     position: absolute;
-    bottom: 0;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     width: 100%;
+    bottom: 0;
     cursor: pointer;
   }
 }
@@ -206,7 +206,6 @@ nav .dropbtn {
   cursor: pointer;
   overflow: hidden;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   border: none;
 }
@@ -214,14 +213,13 @@ nav .dropbtn {
 nav a {
   border-bottom: 2px solid transparent;
   padding: 1.2rem 0rem;
-  /* margin: 0 1rem; */
   text-align: center;
 }
 
 nav .dropbtn {
   border-bottom: 2px solid transparent;
-  padding: 1.2rem 1rem;
 }
+
 nav.home .dropdown-content {
   background-color: var(--secondary-background);
 }
@@ -348,6 +346,7 @@ p.article-author {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
+  flex: 1;
 }
 
 a.article-preview {
@@ -577,4 +576,8 @@ h2.preview-footer {
   h2 {
     font-size: 1.5rem;
   }
+}
+
+.title-category {
+  margin-bottom: 1rem;
 }

@@ -36,7 +36,9 @@ const goDown = () => {
   // window.scrollTo(0, window.scrollY + window.innerHeight, {
   //   behavior: "smooth",
   // })
-  $('html, body').animate({scrollTop: $(window).height()}, 'slow');
+  $('html, body').animate({
+    scrollTop: $("#article-recent").offset().top - $("#article-recent").outerHeight() / 2
+  }, 'slow');
 }
 
 $(document).ready(() => {

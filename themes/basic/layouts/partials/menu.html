@@ -2,7 +2,7 @@
 {{- $menuID := .menuID }}
 
 <h1 class="title">Sans-Trêve</h1>
-<nav class="{{ if $page.IsHome }}home{{ end }}">
+<nav class="{{ if $page.IsHome }}{{ if eq $page.Paginator.PageNumber 1 }}home{{ end }}{{end}}">
 {{- with index site.Menus $menuID }}
   {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
 {{- end }}

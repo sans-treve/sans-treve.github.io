@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ if eq .Paginator.PageNumber 1 }}
 <div class="contribute">
   <h1>Média d'intervention pour la révolution !</h1>
   <h2>Un média émanant de l’organisation concrète pour sortir de l’atomisation. Il s’agit pour nous de construire un espace permettant l’expression et la mise en lien de celles et ceux qui luttent concrètement.</h2>
@@ -21,7 +22,8 @@
     </a>
   {{ end }}
 </div>
-<h2>Recent Articles</h2>
+{{ end }}
+<h2>Articles récent{{ if not (eq .Paginator.PageNumber 1) }} · Page {{ .Paginator.PageNumber }}{{ end }}</h2>
 <div class="previews">
   {{ range (.Paginate site.RegularPages 9).Pages }}
   <a class="article-preview" href="{{ .RelPermalink }}">

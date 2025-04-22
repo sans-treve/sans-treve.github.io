@@ -2,6 +2,7 @@ baseURL = 'https://sans-treve.org/'
 languageCode = 'fr-fr'
 title = 'Sans-trêve'
 theme = 'basic'
+paginate = 9
 
 # Twitter cards
 [Params]

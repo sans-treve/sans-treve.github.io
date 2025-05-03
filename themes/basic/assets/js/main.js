@@ -3,14 +3,18 @@ let timeout = null
 
 const showArticle = (index) => {
   const articles = $("a.big-article-preview")
+  const dots = $("#big-article-preview-dots span")
+  
   articles[currentArticle].style.display = "none"
   articles[index].style.display = "flex"
+  dots[currentArticle].classList.remove("active")
+  dots[index].classList.add("active")
   newTimeout()
 }
 
 const newTimeout = () => {
   clearTimeout(timeout)
-  timeout = setTimeout(nextArticle, 10 * 1000)
+  timeout = setTimeout(nextArticle, 5 * 1000)
 }
 
 const nextArticle = () => {
@@ -48,5 +52,7 @@ $(document).ready(() => {
 
   $("#go-down").click(goDown)
 
-  newTimeout()
+  if ($("a.big-article-preview").length > 0) {
+    newTimeout()
+  }
 })

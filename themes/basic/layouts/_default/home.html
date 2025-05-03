@@ -25,7 +25,7 @@
 {{ end }}
 <h2 id="article-recent">Articles récent{{ if not (eq .Paginator.PageNumber 1) }} · Page {{ .Paginator.PageNumber }}{{ end }}</h2>
 <div class="previews">
-  {{ range (.Paginate site.RegularPages 9).Pages }}
+  {{ range (.Paginate site.RegularPages).Pages }}
   <a class="article-preview" href="{{ .RelPermalink }}">
     <img class="article-preview" src="{{ .Params.image }}" alt="{{ .Params.alt }}">
     <h2 class="article-preview"> {{ .LinkTitle }} </h2>

@@ -2,11 +2,12 @@
 <div class="article-header">
   <h3 class="article-category">{{ index (.Page.Params.categories) 0 }}</h3>
   <h1>{{ .Title }}</h1>
-  <div class="article-author">
-    <img class="article-author" src="https://cdn-images.dzcdn.net/images/artist/bcc27c5d4f98e764f00cc6ecf7ee5483/500x500-000000-80-0-0.jpg" alt="Photo autheur">
-    <p class="article-author">Par {{ .Page.Params.author }} </p>
-  </div>
+  {{ if .Page.Params.author }}
+  <p class="article-author">Par <span style="color: black">{{ .Page.Params.author }}</span></p>
+  {{ end }}
+  {{ if .Date }}
   <p class="article-date">{{ .Date | time.Format "2 January 2006" }} à {{ .Date | time.Format "15h04" }}</p>
+  {{ end }}
 </div>
 <div class="texte">
   {{ .Content }}

@@ -3,12 +3,7 @@
   <h3 class="article-category">{{ index (.Page.Params.categories) 0 }}</h3>
   <h1>{{ .Title }}</h1>
   {{ if .Page.Params.author }}
-  <div class="article-author">
-    <!-- <img class="article-author"
-      src="https://www.preventimark.com/uploads/Aimeos/Panneau-de-signalisation-etiquette-signaletique-autocollante-obligation-pasage-pietons-obligatoire-M225.jpg"
-      alt="Photo autheur"> -->
-    <p class="article-author">Par <span style="color: black">{{ .Page.Params.author }}</span></p>
-  </div>
+  <p class="article-author">Par <span style="color: black">{{ .Page.Params.author }}</span></p>
   {{ end }}
   {{ if .Date }}
   <p class="article-date">{{ .Date | time.Format "2 January 2006" }} à {{ .Date | time.Format "15h04" }}</p>

@@ -123,12 +123,13 @@ code {
   margin: 0 15px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 /* Contribute */
 
 .contribute {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -136,7 +137,6 @@ code {
   text-align: center;
   min-height: 58vh;
   gap: 2rem;
-
 }
 
 .contribute {
@@ -171,17 +171,18 @@ code {
   }
 
   .fa {
+    display: none;
     position: absolute;
-    bottom: 0;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     width: 100%;
+    bottom: 0;
     cursor: pointer;
   }
 }
 
-
 /* Navigation */
+/* Note : home scroll button inspired by https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover */
 
 .title {
   font-size: 3rem;
@@ -207,10 +208,19 @@ nav {
   gap: 2rem;
 }
 
+nav .dropbtn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 16px;
+  border: none;
+}
+
 nav a {
   border-bottom: 2px solid transparent;
   padding: 1.2rem 0rem;
-  /* margin: 0 1rem; */
   text-align: center;
 }
 
@@ -218,9 +228,37 @@ nav.home a {
   color: var(--color-background) !important;
 }
 
-nav.home {
-  border-bottom: none;
+nav .dropbtn {
+  border-bottom: 2px solid transparent;
 }
+
+nav.home .dropdown-content {
+  background-color: var(--secondary-background);
+}
+
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 2.5rem;
+  background-color: var(--light-background);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+nav .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+nav .dropdown:hover .dropdown-content {display: block;}
 
 nav a:hover {
   border-bottom: 2px solid var(--color-primary);
@@ -232,7 +270,13 @@ nav h1 {
   color: var(--color-text);
 }
 
-/* Navigation */
+nav.home a {
+  color: white !important;
+}
+
+nav.home {
+  border-bottom: none;
+}
 
 /* Footer */
 
@@ -320,6 +364,7 @@ p.article-author {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
+  flex: 1;
 }
 
 a.article-preview {
@@ -398,6 +443,7 @@ h1.big-article-preview {
   border-radius: 5px;
   margin-bottom: 2rem;
   text-align: center;
+  padding: 0 2rem;
 
   overflow: hidden;
   display: -webkit-box;
@@ -451,6 +497,32 @@ button.big-article-preview i {
   padding-left: 0.7rem;
 }
 
+#big-article-preview-dots {
+  pointer-events:none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+  z-index: 2;
+  margin-top: 1.5rem;
+}
+
+#big-article-preview-dots span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+#big-article-preview-dots span.active {
+  opacity: 1;
+}
 
 @keyframes lolipop {
   0% {
@@ -467,7 +539,7 @@ button.big-article-preview i {
   top: 0;
   left: 0;
   right: 0;
-  height: 100vh;
+  height: 100lvh;
   background-color: var(--color-primary);
   z-index: -999;
   /* animation: lolipop 0.5s ease-out; */
@@ -525,7 +597,8 @@ h2.preview-footer {
   }
   
   .contribute {
-    min-height: calc(100vh - 78px - 61.4px - 12.8px);
+    min-height: calc(100dvh - 78px - 61.4px - 12.8px);
+    margin-bottom: calc(100lvh - 100dvh);
 
     h1 {
       font-size: 2rem;
@@ -533,6 +606,10 @@ h2.preview-footer {
 
     h2 {
       font-size: 1.2rem;
+    }
+
+    .fa {
+      display: block;
     }
   }
 
@@ -544,3 +621,8 @@ h2.preview-footer {
     font-size: 1.5rem;
   }
 }
+
+.title-category {
+  margin-bottom: 1rem;
+}
+

@@ -1,6 +1,6 @@
 baseURL = 'https://sans-treve.org/'
 languageCode = 'fr-fr'
-title = 'Sans-trêve'
+title = 'Sans trêve'
 theme = 'basic'
 
 # Twitter cards

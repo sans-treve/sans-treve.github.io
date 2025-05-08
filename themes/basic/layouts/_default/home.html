@@ -31,7 +31,7 @@
 
 
 {{ end }}
-<h2 id="article-recent">Articles récent{{ if not (eq .Paginator.PageNumber 1) }} · Page {{ .Paginator.PageNumber }}{{ end }}</h2>
+<h2 id="article-recent">Articles récents{{ if not (eq .Paginator.PageNumber 1) }} · Page {{ .Paginator.PageNumber }}{{ end }}</h2>
 <div class="previews">
   {{ range (.Paginate site.RegularPages).Pages }}
   <a class="article-preview" href="{{ .RelPermalink }}">

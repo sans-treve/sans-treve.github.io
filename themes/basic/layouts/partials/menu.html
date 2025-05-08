@@ -1,7 +1,8 @@
 {{- $page := .page }}
 {{- $menuID := .menuID }}
+
 <div class="menu">
-<h1 class="title">Sans-Trêve</h1>
+<a class="title" href="/">SANS TREVE</a>
 <nav class="{{ if $page.IsHome }}{{ if eq $page.Paginator.PageNumber 1 }}home{{ end }}{{end}}">
 {{- with index site.Menus $menuID }}
   {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}

@@ -536,6 +536,7 @@ button.big-article-preview i {
   }
 }
 
+/*
 .home::before {
   content: "";
   position: absolute;
@@ -547,6 +548,7 @@ button.big-article-preview i {
   z-index: -999;
   /* animation: lolipop 0.5s ease-out; */
 }
+*/
 
 /* Article preview footer */
 

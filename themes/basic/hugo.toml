@@ -18,8 +18,8 @@ pageRef = '/contribuer'
 weight = 40
 
 [[menus.main]]
-name = 'A propos'
-pageRef = '/apropos'
+name = 'Manifeste'
+pageRef = '/manifeste'
 weight = 50
 
 [module]

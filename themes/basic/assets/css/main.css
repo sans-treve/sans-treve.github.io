@@ -1,18 +1,24 @@
 :root {
-  --primary: #c40e29;
-  --text: #2e3532;
-  --secondary-text: #dadada;
-  --background: white;
-  --secondary-background: #ff5649;
-  --light-background: #ffebe9;
-  --border-color: #3e3e3e;
+  --color-primary: #FF6700;
+  --color-secondary: #FFAD00;
+  --color-background: #FFFCF2;
+  --color-text: #252422;
+  --color-alternative-text: #403D39;
+  --color-headings: var(--color-primary);
+  --color-title: var(--color-text);
+  --color-border: #CCC5B9;
+  --color-code-border: rgb(220, 220, 220);
+  --color-code-background: rgb(243, 243, 243);
+  --font-body: "Adelphe Floreal";
+  --font-headings: "Cormorant SC";
+  --font-title: "Aero";
+  --font-secondary: var(--font-body);
 }
 
-
 body {
-  background-color: var(--background);
-  color: var(--text);
-  font-family: "CooperHewitt", sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
 
   display: flex;
   flex-direction: column;
@@ -30,11 +36,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'CooperHewitt';
+  font-family: var(--font-body);
 }
 
 a {
-  color: var(--primary);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -43,14 +49,15 @@ ul {
 }
 
 p, li {
-  font-family: 'plantin';
+  font-family: var(--font-body);
   margin-bottom: 0;
   font-size: 1.1rem;
   line-height: 1.5;
 }
 
 h1 {
-  color: var(--primary);
+  font-family: var(--font-headings);
+  color: var(--color-headings);
   margin: 0;
   font-size: 3rem;
   line-height: normal;
@@ -59,9 +66,9 @@ h1 {
 blockquote {
 
   font-weight: 500;
-  color: #3e3e3e;
-  border-top: 3px solid var(--secondary-text);
-  border-bottom: 3px solid var(--secondary-text);
+  color: var(--color-alternative-text);
+  border-top: 3px solid var(--color-border);
+  border-bottom: 3px solid var(--color-border);
   padding: 1rem 2rem;
   margin: 3rem 2rem;
   display: flex;
@@ -76,10 +83,10 @@ blockquote blockquote p{
 blockquote blockquote{
 
   font-weight: 500;
-  color: #3e3e3e;
-  border-left: 3px solid var(--secondary-text);
-  border-top: 0px solid var(--secondary-text);
-  border-bottom: 0px solid var(--secondary-text);
+  color: var(--color-alternative-text);
+  border-left: 3px solid var(--color-border);
+  border-top: 0px solid var(--color-border);
+  border-bottom: 0px solid var(--color-border);
   padding: 0.5rem 0.5rem;
   margin:10px 0 0 0; 
   display: flex;
@@ -97,12 +104,12 @@ blockquote p {
 }
 
 code {
-	border: 1px solid rgb(220, 220, 220);
-	background-color: rgb(243, 243, 243);
+	border: 1px solid var(--color-code-border);
+	background-color: var(--color-code-background);
 	padding-right: .2em;
 	padding-left: .2em;
 	border-radius: .25em;
-	color: rgb(0,0,0);
+	color: var(--color-text);
 	font-size: .9em;
 }
 
@@ -137,7 +144,7 @@ hr {
 
 .contribute {
   h1 {
-    color: white;
+    color: var(--color-background);
     font-size: 2.5rem;
     margin: 0;
   }
@@ -147,14 +154,14 @@ hr {
     margin: 0;
   }
   p {
-    color: white;
+    color: var(--color-background);
     font-size: 1.5rem;
     margin: 0;
   }
 
   a {
     border: none;
-    color: black;
+    color: var(--color-text);
     padding: 15px 32px;
     border-radius: 30px;
     text-align: center;
@@ -163,7 +170,7 @@ hr {
     font-size: 1.3rem;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: white;
+    background-color: var(--color-background);
   }
 
   .fa {
@@ -188,7 +195,8 @@ hr {
   padding-top: 1rem;
   width: 100%;
   max-width: 1000px;
-  color: var(--text);
+  font-family: var(--font-title);
+  color: var(--color-title);
 }
 
 nav {
@@ -199,7 +207,7 @@ nav {
   margin-bottom: 0.8rem;
   width: 100%;
   max-width: 1000px;
-  border-bottom: 2px solid var(--secondary-text);
+  border-bottom: 2px solid var(--color-alternative-text);
   gap: 2rem;
 }
 
@@ -217,6 +225,10 @@ nav a {
   border-bottom: 2px solid transparent;
   padding: 1.2rem 0rem;
   text-align: center;
+}
+
+nav.home a {
+  color: var(--color-background) !important;
 }
 
 nav .dropbtn {
@@ -252,7 +264,13 @@ nav .dropdown {
 nav .dropdown:hover .dropdown-content {display: block;}
 
 nav a:hover {
-  border-bottom: 2px solid var(--primary);
+  border-bottom: 2px solid var(--color-primary);
+}
+
+nav h1 {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: var(--color-text);
 }
 
 nav.home a {
@@ -267,7 +285,7 @@ nav.home {
 
 .back-footer {
   width: 100%;
-  background-color: var(--secondary-background);
+  background-color: var(--color-primary);
   margin-top: 3rem;
   display: flex;
   align-items: center;
@@ -282,7 +300,7 @@ nav.home {
   padding: 2rem 1rem;
   width: 100%;
   max-width: 1000px;
-  color: white;
+  color: var(--color-background);
 }
 
 .footer-social {
@@ -294,7 +312,7 @@ nav.home {
 }
 
 a .fa {
-  color: white;
+  color: var(--color-background);
 }
 
 .fa {
@@ -308,7 +326,7 @@ a .fa {
 .article-header {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid var(--secondary-text);
+  border-bottom: 2px solid var(--color-alternative-text);
 }
 
 .article-category {
@@ -375,7 +393,7 @@ h2.article-preview {
 p.article-preview {
   margin: 0;
   font-size: 1rem;
-  color: rgb(78, 78, 78);
+  color: var(--color-alternative-text);
 }
 
 .summary.article-preview {
@@ -404,7 +422,7 @@ a.big-article-preview {
   width: 100%;
   aspect-ratio: 16 / 9;
   position: relative;
-  background-color: black;
+  background-color: var(--color-text);
   z-index: 1;
   border-radius: 10px;
   overflow: hidden;
@@ -422,7 +440,7 @@ img.big-article-preview {
 }
 
 h1.big-article-preview {
-  color: white;
+  color: var(--color-background);
   font-size: 2.3rem;
   margin: 0;
   border-radius: 5px;
@@ -438,7 +456,7 @@ h1.big-article-preview {
 }
 
 h2.big-article-preview {
-  color: #e1e1e1;
+  color: var(--color-border);
   font-size: 1.5rem;
   margin: 0;
   border-radius: 5px;
@@ -449,7 +467,7 @@ button.big-article-preview {
   /* display: none; */
   background-color: transparent;
   border: none;
-  color: white;
+  color: var(--color-background);
   border-radius: 5px;
   z-index: 2;
   cursor: pointer;
@@ -525,7 +543,7 @@ button.big-article-preview i {
   left: 0;
   right: 0;
   height: 100lvh;
-  background-color: var(--secondary-background);
+  background-color: var(--color-primary);
   z-index: -999;
   /* animation: lolipop 0.5s ease-out; */
 }
@@ -537,7 +555,7 @@ h2.preview-footer {
   padding-top: 2rem;
   margin-top: 3rem;
   margin-bottom: 2rem;
-  border-top: 2px solid var(--secondary-text);
+  border-top: 2px solid var(--color-alternative-text);
 }
 
 /* Pagination */
@@ -555,16 +573,16 @@ h2.preview-footer {
   border-radius: 5px;
 }
 .pagination :not(.active) a:hover {
-  color: white;
-  background-color: var(--secondary-background);
+  color: var(--color-background);
+  background-color: var(--color-primary);
 }
 
 .pagination .active a {
-  border: 1px solid var(--secondary-background);
+  border: 1px solid var(--color-primary);
 }
 
 .pagination .disabled a {
-  color: black;
+  color: var(--color-primary);
   pointer-events: none;
 }
 

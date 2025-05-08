@@ -1,69 +1,98 @@
 @font-face {
-  font-family: 'plantin';
-  src: url('/font/PLANTINSTD.OTF');
-  font-weight: 400;
-  font-style: normal
+    font-family: 'Adelphe Floreal';
+    src: url('/font/Adelphe-FlorealBold.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'plantin';
-  src: url('/font/PLANTINSTD-BOLD.OTF');
-  font-weight: 700;
-  font-style: normal
+    font-family: 'Adelphe Floreal';
+    src: url('/font/Adelphe-FlorealItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'plantin';
-  src: url('/font/PLANTINSTD-ITALIC.OTF');
-  font-weight: 400;
-  font-style: italic
+    font-family: 'Adelphe Floreal';
+    src: url('/font/Adelphe-FlorealBoldItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'plantin';
-  src: url('/font/PLANTINSTD-BOLD.OTF');
-  font-weight: 700;
-  font-style: italic
+    font-family: 'Adelphe Floreal';
+    src: url('/font/Adelphe-FlorealRegular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'CooperHewitt';
-  src: url('/font/CooperHewitt-Bold.otf');
-  font-weight: 400;
-  font-style: normal
+    font-family: 'Adelphe Floreal';
+    src: url('/font/Adelphe-FlorealSemiBold.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'CooperHewitt';
-  src: url('/font/CooperHewitt-BoldItalic.otf');
-  font-weight: 400;
-  font-style: italic
+    font-family: 'Aero';
+    src: url('/font/Aero.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'CooperHewittMedium';
-  src: url('/font/CooperHewitt-Semibold.otf');
-  font-weight: 400;
-  font-style: normal
+    font-family: 'Adelphe Floreal';
+    src: url('/font/Adelphe-FlorealSemiBoldItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'CooperHewittMedium';
-  src: url('/font/CooperHewitt-Semibold.otf');
-  font-weight: 400;
-  font-style: italic
+    font-family: 'Cormorant SC';
+    src: url('/font/CormorantSC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'WorkAvec';
-  src: url('//cqfd-journal.org/squelettes/css/fonts/WorkAvec-Medium.ttf');
-  font-weight: 400;
-  font-style: normal
+    font-family: 'Cormorant SC';
+    src: url('/font/CormorantSC-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'WorkAvec';
-  src: url('//cqfd-journal.org/squelettes/css/fonts/WorkAvec-SemiBold.ttf');
-  font-weight: 700;
-  font-style: normal
+    font-family: 'Cormorant SC';
+    src: url('/font/CormorantSC-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'Cormorant SC';
+    src: url('/font/CormorantSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant SC';
+    src: url('/font/CormorantSC-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

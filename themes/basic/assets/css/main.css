@@ -199,6 +199,12 @@ hr {
   color: var(--color-title);
 }
 
+.home.menu {
+    background-color: var(--color-primary);
+}
+
+
+
 nav {
   display: flex;
   justify-content: center;

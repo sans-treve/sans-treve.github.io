@@ -34,7 +34,7 @@ Tous les articles doivent être signés (avec un faux nom ou vrai nom, un nom de
 
 
 
-Si vous avez des questions, que vous souhaitez contribuer au média, à sa diffusion, ou simplement soutenir l'initiative et discuter des textes vous pouvez rejoindre cette boucle signal : [https://signal.group/#CjQKICHs9O4EBLqjHJEmLw04KCrzjIpftbtAEEujx96uM1WmEhBEN78\_7uEnJUtlWFuPggdX](https://signal.group/#CjQKICHs9O4EBLqjHJEmLw04KCrzjIpftbtAEEujx96uM1WmEhBEN78\_7uEnJUtlWFuPggdX)
+Si vous avez des questions, que vous souhaitez contribuer au média, à sa diffusion, ou simplement soutenir l'initiative et discuter des textes vous pouvez rejoindre [cette boucle signal.](https://signal.group/#CjQKICHs9O4EBLqjHJEmLw04KCrzjIpftbtAEEujx96uM1WmEhBEN78\_7uEnJUtlWFuPggdX)
 
 Cette boucle n'a pas pour but de valider les contributions. Pour contribuer envoyer un mail à sans-treve@proton.me.
 

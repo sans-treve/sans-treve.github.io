@@ -11,7 +11,7 @@
   --color-code-background: rgb(243, 243, 243);
   --font-body: "Adelphe Floreal";
   --font-headings: "Cormorant SC";
-  --font-title: "Aero";
+  --font-title: aero;
   --font-secondary: var(--font-body);
 }
 
@@ -239,8 +239,6 @@ hr {
 .home.menu {
     background-color: var(--color-primary);
 }
-
-
 
 nav {
   display: flex;

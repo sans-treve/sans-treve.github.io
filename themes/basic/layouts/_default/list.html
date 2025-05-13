@@ -4,7 +4,7 @@
 <div class="previews">
   {{ range .Pages }}
   <a class="article-preview" href="{{ .RelPermalink }}">
-    <img class="article-preview" src="{{ .Params.image }}" alt="{{ .Params.alt }}">
+    <img class="article-preview" src="{{ if .Params.image }}{{ .Params.image }}{{ else }}https://img.freepik.com/photos-premium/texture-marbre-orange-fond-texture-marbre-orange-fond-marbre-orange-fond-texture-marbre-fond-texture-marbre-fond-ecran-ai-generatif_703884-4738.jpg{{ end }}" alt="{{ .Params.alt }}">
     <h2 class="article-preview"> {{ .LinkTitle }} </h2>
     <p class="date article-preview">{{ .Date.Format "2006-01-02" }}</p>
     <p class="summary article-preview">{{ .Content | plainify | truncate 300 }}</p>

@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'Aero';
+    src: url('/font/Aero.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'Adelphe Floreal';
     src: url('/font/Adelphe-FlorealBold.ttf') format('truetype');
     font-weight: 100;
@@ -35,14 +40,6 @@
     src: url('/font/Adelphe-FlorealSemiBold.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Aero';
-    src: url('/font/Aero.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
     font-display: swap;
 }
 

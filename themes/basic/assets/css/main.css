@@ -249,12 +249,17 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-bottom: 0.8rem; */
-  margin-bottom: 0.8rem;
   width: 100%;
   max-width: 1000px;
-  border-bottom: 2px solid var(--color-alternative-text);
   gap: 2rem;
+}
+
+.bar-nav:not(.home) {
+  border-bottom: 2px solid var(--color-alternative-text);
+  max-width: 1000px;
+  width: -moz-available;
+  margin: 0 15px;
+  margin-bottom: 0.8rem;
 }
 
 nav .dropbtn {

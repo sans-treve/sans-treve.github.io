@@ -7,6 +7,7 @@
   {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
 {{- end }}
 </nav>
+{{ if not (and $page.IsHome (eq $page.Paginator.PageNumber 1 )) }}<div class="bar-nav"></div>{{ end }}
 
 {{- define "partials/inline/menu/walk.html" }}
   {{- $page := .page }}

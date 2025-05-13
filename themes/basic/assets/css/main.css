@@ -258,6 +258,7 @@ nav {
   border-bottom: 2px solid var(--color-alternative-text);
   max-width: 1000px;
   width: -moz-available;
+  width: -webkit-fill-available;
   margin: 0 15px;
   margin-bottom: 0.8rem;
 }

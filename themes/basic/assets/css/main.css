@@ -652,7 +652,7 @@ h2.preview-footer {
   }
   
   .contribute {
-    min-height: calc(100dvh - 78px - 61.4px - 12.8px);
+    min-height: calc(100dvh - 68px - 60.4px);
     margin-bottom: calc(100lvh - 100dvh);
 
     p {

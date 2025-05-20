@@ -440,6 +440,7 @@ h2.article-preview {
   -webkit-line-clamp: 2;
   line-clamp: 2;
   -webkit-box-orient: vertical;
+  font-family: var(--font-headings);
 }
 
 p.article-preview {

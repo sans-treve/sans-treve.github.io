@@ -1,6 +1,7 @@
 +++
 draft = false
 title = 'Contribuer'
+image = 'contribuer.jpg'
 +++
 
 

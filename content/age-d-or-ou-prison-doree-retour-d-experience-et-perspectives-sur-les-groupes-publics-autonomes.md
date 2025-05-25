@@ -3,7 +3,7 @@ date = '2025-05-25T11:32:40+02:00'
 draft = false
 author = 'E.'
 title = "Âge d'or ou prison dorée ? Retour d'expérience et perspectives sur les groupes publics autonomes"
-image = "age-d-or-ou-prison-doree-retour-d-experience-et-perspectives-sur-les-groupes-publics-autonomes.jpg"
+image = "/sans-treve-media/articles/age-d-or-ou-prison-doree-retour-d-experience-et-perspectives-sur-les-groupes-publics-autonomes.jpg"
 +++
 
 

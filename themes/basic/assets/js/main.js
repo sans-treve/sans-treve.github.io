@@ -19,7 +19,7 @@ const newTimeout = () => {
 
 const nextArticle = () => {
   let index = currentArticle + 1
-  if (index > 1) {
+  if (index > 2) {
     index = 0
   }
   showArticle(index)
@@ -29,7 +29,7 @@ const nextArticle = () => {
 const prevArticle = () => {
   let index = currentArticle - 1
   if (index < 0) {
-    index = 1
+    index = 2
   }
   showArticle(index)
   currentArticle = index

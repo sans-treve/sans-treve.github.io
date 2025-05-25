@@ -18,13 +18,14 @@
   </button>
   {{range first 3 .Site.RegularPages}}
     <a class="big-article-preview" style="display: {{ if eq . (index .Site.RegularPages 0) }}flex{{ else }}none{{ end }};" href="{{ .RelPermalink }}">
-      <img class="big-article-preview" src="{{ if .Params.image }}{{ .Params.image }}{{ else }}https://img.freepik.com/photos-premium/texture-marbre-orange-fond-texture-marbre-orange-fond-marbre-orange-fond-texture-marbre-fond-texture-marbre-fond-ecran-ai-generatif_703884-4738.jpg{{ end }}" alt="">
+      <img class="big-article-preview" src="{{ if .Params.image }}{{ .Params.image }}{{ else }}/sans-treve-media/articles/default.jpg{{ end }}" alt="">
       <h2 class="big-article-preview">{{ index .Params.categories 0 }}</h3>
       <h1 class="big-article-preview">{{ .LinkTitle }}</h2>
     </a>
   {{ end }}
   <div id="big-article-preview-dots">
     <span class="active"></span>
+    <span></span>
     <span></span>
   </div>
 </div>
@@ -35,7 +36,7 @@
 <div class="previews">
   {{ range (.Paginate site.RegularPages).Pages }}
   <a class="article-preview" href="{{ .RelPermalink }}">
-    <img class="article-preview" src="{{ if .Params.image }}{{ .Params.image }}{{ else }}https://img.freepik.com/photos-premium/texture-marbre-orange-fond-texture-marbre-orange-fond-marbre-orange-fond-texture-marbre-fond-texture-marbre-fond-ecran-ai-generatif_703884-4738.jpg{{ end }}" alt="">
+    <img class="article-preview" src="{{ if .Params.image }}{{ .Params.image }}{{ else }}/sans-treve-media/articles/default.jpg{{ end }}" alt="">
     <h2 class="article-preview"> {{ .LinkTitle }} </h2>
     {{ if .Params.date }}<p class="date article-preview">{{ .Date.Format "2006-01-02" }}</p>{{ end}}
     <p class="summary article-preview">{{ .Content | plainify | truncate 300 }}</p>

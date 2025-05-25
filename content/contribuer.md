@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Contribuer'
-image = 'contribuer.jpg'
+image = '/sans-treve-media/articles/contribuer.jpg'
 +++
 
 

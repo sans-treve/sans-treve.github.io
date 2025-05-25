@@ -361,15 +361,18 @@ nav.home {
   justify-content: center;
   align-items: center;
   margin: 1rem 0;
+  gap: 1rem;
 }
 
-a .fa {
+.footer-social a {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social a .fa {
   color: var(--color-background);
-}
-
-.fa {
-  font-size: 1.5rem !important;
-  margin: 0 1rem;
+  font-size: 1.5rem;
 }
 
 /* Footer */

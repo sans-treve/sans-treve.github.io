@@ -5,7 +5,7 @@ image = '/sans-treve-media/articles/contribuer.jpg'
 +++
 
 
-*Sans treve* est ouvert aux contributions par ce mail : sans-treve@proton.me
+*Sans trêve* est ouvert aux contributions par ce mail : sans-treve@proton.me
 
 
 

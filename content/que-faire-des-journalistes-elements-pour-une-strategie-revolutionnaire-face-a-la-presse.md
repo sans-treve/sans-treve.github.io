@@ -13,7 +13,7 @@ image = "/sans-treve-media/articles/que-faire-des-journalistes-elements-pour-une
 > 
 >     
 > 
-> *L’Alimentation ouvrière*, Fédération nationale des travailleurs de l’alimentation, 1er mai 1907
+> L’Alimentation ouvrière, Fédération nationale des travailleurs de l’alimentation, 1er mai 1907
 > 
 > — Archives départementales de Seine-Saint-Denis, Bobigny, fonds de l’Institut d’histoire sociale-CGT. Cité dans https://www.monde-diplomatique.fr/2022/11/PINSOLLE/65250 
 

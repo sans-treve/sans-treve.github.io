@@ -1,5 +1,5 @@
 +++
-date = '2025-05-25T11:32:40+02:00'
+date = '2025-05-25T11:52:02+02:00'
 draft = false
 author = 'E.'
 title = "Âge d'or ou prison dorée ? Retour d'expérience et perspectives sur les groupes publics autonomes"

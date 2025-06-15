@@ -38,8 +38,7 @@
   <a class="article-preview" href="{{ .RelPermalink }}">
     <img class="article-preview" src="{{ if .Params.image }}{{ .Params.image }}{{ else }}/sans-treve-media/articles/default.jpg{{ end }}" alt="">
     <h2 class="article-preview"> {{ .LinkTitle }} </h2>
-    {{ if .Params.date }}<p class="date article-preview">{{ .Date.Format "2006-01-02" }}</p>{{ end}}
-    <p class="summary article-preview">{{ .Content | plainify | truncate 300 }}</p>
+    <p class="summary article-preview">{{ .Summary | plainify | truncate 300 }}</p>
   </a>
   {{ end }}
 </div>

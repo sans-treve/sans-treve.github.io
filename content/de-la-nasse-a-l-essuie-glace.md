@@ -8,8 +8,10 @@ image = "/sans-treve-media/articles/de-la-nasse-a-l-essuie-glace.jpeg"
 +++
 ### *Introduction à la doctrine d’emploi du maintien de l’ordre parisien*
 *Les incessantes manœuvres et l’écrasante supériorité numérique du dispositif policier des manifestations parisiennes déroutent généralement les néophytes, mais les initiés n’en sont pas moins désemparés. Si beaucoup s’habituent à voir les keufs scinder de toute part le cortège de tête, peu se demandent comment y arrivent-ils. Ce texte entend au contraire ne pas laisser la pensée tactique entre les seules mains de la répression. Par l’analyse des stratégies successives de la Préfecture, nous souhaitons porter un regard nouveau sur le maintien de l’ordre parisien et participer au réarmement théorique du camp révolutionnaire.*
+[Disponible en pdf ici.](/sans-treve-media/articles/de-la-nasse-a-l-essuie-glace/de-la-nasse-a-l-essuie-glace.pdf)
 
 ---
+
 
 Ce texte est le fruit d’un double constat amer qui s’est imposé à nous, au fil des mouvements sociaux, et plus particulièrement lors des manifestations parisiennes. Le premier constat est celui de l’écrasement stratégique et tactique par la préfecture des derniers mouvements dans les rues parisiennes.
 

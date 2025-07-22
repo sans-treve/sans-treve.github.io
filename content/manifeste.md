@@ -23,3 +23,5 @@ Tous ces constats appellent, à notre sens, à ouvrir un nouvel espace de discus
 
 **Un média de conspiration publique pour sortir du devenir sectaire des groupes autonomes.** Il ne s'agit pas seulement de se rendre rejoignables et de démystifier un milieu nébuleux, mais surtout de construire la désirabilité de la révolution et de son organisation. Comme le soleil conspire contre les ténèbres, nos imaginaires et pratiques doivent être portés aux yeux de tous.tes.
 
+[[Manifeste en format A5 page par page]](/sans-treve-media/articles/brochure-manifeste.pdf)
+[[Manifeste en format brochure imprimable]](/sans-treve-media/articles/brochure-manifeste-impression.pdf)

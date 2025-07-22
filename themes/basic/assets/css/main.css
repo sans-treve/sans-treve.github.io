@@ -13,6 +13,7 @@
   --font-headings: "Cormorant SC";
   --font-title: aero;
   --font-secondary: var(--font-body);
+  --width: 800px;
 }
 
 body {

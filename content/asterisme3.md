@@ -7,7 +7,9 @@ image = "/sans-treve-media/articles/⁂3.png"
 summary = 'Un futur étrange nous tend les bras. Malgré toutes les tentatives pour la dompter l’Histoire demeure ce grand bouillon chaotique où s’agite le cours des événements, que nous semblons condamné.e.s à observer et subir.'
 +++
 
-[[Texte en pdf]](/sans-treve-media/articles/⁂3.pdf)
+[[Texte en format A5 page par page]](/sans-treve-media/articles/brochure-⁂3.pdf)
+[[Texte en format brochure imprimable]](/sans-treve-media/articles/brochure-⁂3-impression.pdf)
+[[Texte en format A4 page par page]](/sans-treve-media/articles/⁂3.pdf)
 
 Un futur étrange nous tend les bras.
 

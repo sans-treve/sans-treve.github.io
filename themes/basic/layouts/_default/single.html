@@ -1,5 +1,6 @@
 {{ define "main" }}
 <div class="article-header">
+  <img src="{{ if .Params.image }}{{ .Params.image }}{{ else }}/sans-treve-media/articles/default.jpg{{ end }}">
   <h3 class="article-category">{{ index (.Page.Params.categories) 0 }}</h3>
   <h1>{{ .Title }}</h1>
   {{ if .Page.Params.author }}

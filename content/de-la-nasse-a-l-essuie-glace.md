@@ -5,10 +5,14 @@ author = 'Tac et Tic les amis Wróblewski'
 title = "De la nasse à l’essuie-glace"
 summary = "Introduction à la doctrine d’emploi du maintien de l’ordre parisien"
 image = "/sans-treve-media/articles/de-la-nasse-a-l-essuie-glace.jpeg"
+
 +++
 ### *Introduction à la doctrine d’emploi du maintien de l’ordre parisien*
 *Les incessantes manœuvres et l’écrasante supériorité numérique du dispositif policier des manifestations parisiennes déroutent généralement les néophytes, mais les initiés n’en sont pas moins désemparés. Si beaucoup s’habituent à voir les keufs scinder de toute part le cortège de tête, peu se demandent comment y arrivent-ils. Ce texte entend au contraire ne pas laisser la pensée tactique entre les seules mains de la répression. Par l’analyse des stratégies successives de la Préfecture, nous souhaitons porter un regard nouveau sur le maintien de l’ordre parisien et participer au réarmement théorique du camp révolutionnaire.*
-[Disponible en pdf ici.](/sans-treve-media/articles/de-la-nasse-a-l-essuie-glace/de-la-nasse-a-l-essuie-glace.pdf)
+
+[[Texte en format A5 page par page]](/sans-treve-media/articles/brochure-mdo.pdf)
+[[Texte en format brochure imprimable]](/sans-treve-media/articles/brochure-mdo-impression.pdf)
+[[Texte en format A4]](/sans-treve-media/articles/de-la-nasse-a-l-essuie-glace/de-la-nasse-a-l-essuie-glace.pdf)
 
 ---
 
@@ -72,8 +76,8 @@ La seconde tactique employée massivement à cette époque, et qui va supprimer 
 
 > ![Phase 0 : Situation initiale avant la charge](/sans-treve-media/articles/de-la-nasse-a-l-essuie-glace/schemas/Schema1.png)
 > *Phase 0 : Situation initiale avant la charge, dans un déroulé de manifestation où le cortège de tête apparaît divers et hétérogène, se confondant même à certains endroits avec le cortège syndical.*
-> ![Phase 2 : Charge latérale des deux côtés des FDO](/sans-treve-media/articles/de-la-nasse-a-l-essuie-glace/schemas/Schema2.png)
-> *Phase 2 : Charge latérale des deux côtés des FDO au carrefour qui fait le croisement entre le Bd Sébastopol et la rue de Turbigo. La charge ne se voit pas complétée par l’entrée d’un dispositif au sein du cortège visant à la couper durablement. Elle peut être répétée au carrefour suivant, voire même en plein sur les boulevards. Cette tactique rendait plus nombreux les points de fixation.*
+> ![Phase 1 : Charge latérale des deux côtés des FDO](/sans-treve-media/articles/de-la-nasse-a-l-essuie-glace/schemas/Schema2.png)
+> *Phase 1 : Charge latérale des deux côtés des FDO au carrefour qui fait le croisement entre le Bd Sébastopol et la rue de Turbigo. La charge ne se voit pas complétée par l’entrée d’un dispositif au sein du cortège visant à la couper durablement. Elle peut être répétée au carrefour suivant, voire même en plein sur les boulevards. Cette tactique rendait plus nombreux les points de fixation.*
 >
 >![Légende-1.png](/sans-treve-media/articles/de-la-nasse-a-l-essuie-glace/images-legendes/Legende-1.png)
 

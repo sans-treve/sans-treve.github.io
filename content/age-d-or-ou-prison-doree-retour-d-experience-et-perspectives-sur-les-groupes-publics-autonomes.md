@@ -4,9 +4,13 @@ draft = false
 author = 'E.'
 title = "Âge d'or ou prison dorée ? Retour d'expérience et perspectives sur les groupes publics autonomes"
 image = "/sans-treve-media/articles/age-d-or-ou-prison-doree-retour-d-experience-et-perspectives-sur-les-groupes-publics-autonomes.jpg"
+summary = 'En 2020, au tout début du second confinement, nous avons posé les fondations d’un nouveau groupe. Nous venions de divers horizons et l’ambition était de reprendre à plat les réflexions sur la révolution, sur la base de nos diverses expériences. Le groupe était fermé mais nous avions beaucoup de liens avec le milieu et invitions régulièrement de nouvelles personnes à nous rejoindre.'
 +++
 
 
+
+[[Texte en format A5 page par page]](/sans-treve-media/articles/brochure-gpa.pdf)
+[[Texte en format brochure imprimable]](/sans-treve-media/articles/brochure-gpa-impression.pdf)
 
 
 En 2020, au tout début du second confinement, nous avons posé les fondations d’un nouveau groupe. Nous venions de divers horizons et l’ambition était de reprendre à plat les réflexions sur la révolution, sur la base de nos diverses expériences. Le groupe était fermé mais nous avions beaucoup de liens avec le milieu et invitions régulièrement de nouvelles personnes à nous rejoindre.

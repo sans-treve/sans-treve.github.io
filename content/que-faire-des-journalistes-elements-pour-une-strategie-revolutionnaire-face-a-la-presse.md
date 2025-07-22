@@ -4,7 +4,11 @@ draft = false
 title = 'Que faire des journalistes ? Éléments pour une stratégie révolutionnaire face à la presse'
 author = 'le comité de salut public'
 image = "/sans-treve-media/articles/que-faire-des-journalistes-elements-pour-une-strategie-revolutionnaire-face-a-la-presse.jpg"
+summary = 'Qu’on leur parle ou non, les journalistes parleront de nous. Mieux vaut les affronter que les ignorer. Refuser en bloc tout rapport à la presse peut flatter une posture radicale, mais ne construit aucune force. Ce texte propose d’en finir avec la posture moraliste du refus pur et simple, pour penser une stratégie offensive face aux médias : imposer nos mots, fixer nos conditions, retourner leurs outils contre eux si nécessaire. Parce que le silence politique est une impasse, il est temps de reprendre la main sur notre récit.'
 +++
+
+[[Texte en format A5 page par page]](/sans-treve-media/articles/brochure-journalistes.pdf)
+[[Texte en format brochure imprimable]](/sans-treve-media/articles/brochure-journalistes-impression.pdf)
 
 **Qu’on leur parle ou non, les journalistes parleront de nous. Mieux vaut les affronter que les ignorer. Refuser en bloc tout rapport à la presse peut flatter une posture radicale, mais ne construit aucune force. Ce texte propose d’en finir avec la posture moraliste du refus pur et simple, pour penser une stratégie offensive face aux médias : imposer nos mots, fixer nos conditions, retourner leurs outils contre eux si nécessaire. Parce que le silence politique est une impasse, il est temps de reprendre la main sur notre récit.**
 

@@ -8,7 +8,7 @@ summary = "La composition est devenue une recette à la mode - sans saveur et no
 +++
 
 [[Texte en format A5 page par page]](/sans-treve-media/articles/brochure-composition1.pdf)
-[[Texte en format brochure imprimable]](/sans-treve-media/articles/brochure-composition1.pdf)
+[[Texte en format brochure imprimable]](/sans-treve-media/articles/brochure-composition1-impression.pdf)
 
 
 **La composition est devenue une recette à la mode - sans saveur et nous laissant souvent un goût amer en bouche. Le mot circule, vidé de sens et bon à justifier tous les opportunismes. Nous affirmons ici la nécessité de revenir au concept de *composition de classe*, développé dans l’autonomie italienne, pour réellement en faire quelque chose et donner du sens à ce qu'être "pour la composition" signifie. La composition devient alors ce processus complexe et conflictuel, dans lequel des subjectivités s’assemblent pour, parfois, former un sujet politique antagoniste à même de renverser la table. S'engager pour la composition, c'est s'engager dans la constitution de cet antagonisme.**

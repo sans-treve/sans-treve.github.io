@@ -2,7 +2,7 @@
 date = '2025-08-23T13:47:00+02:00'
 draft = false
 author = 'tes voisins'
-title = "10 septembre - Pousser la ligne \"Bloquons tout !\""
+title = '10 septembre - Pousser la ligne : Bloquons tout !'
 image = "/sans-treve-media/articles/drapeau-10s.jpg"
 summary = "Entre premières réunions physiques, création des réseaux sociaux et stabilisation des chaînes Telegram et de la modération, le mouvement du 10 septembre n'en est qu'à ses balbutiements. Et pourtant, à trois semaines de la date (!), il semble déjà plus préparé à la mobilisation que l'intersyndicale nationale."
 

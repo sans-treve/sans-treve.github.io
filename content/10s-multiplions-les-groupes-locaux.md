@@ -4,6 +4,8 @@ draft = false
 author = 'tes voisins'
 title = '10 septembre - Multiplions les groupes locaux !'
 image = "/sans-treve-media/articles/drapeau-10s.jpg"
+summary = "L'effervescence est-elle déjà retombée ? L'appel du 10 septembre est arrivé comme un don du ciel : une chance nous est donnée de répliquer face aux attaques sans retenue du gouvernement. Et ça s'organise immédiatement. Tout le monde s'est rué sur les conversations telegram officielles et a constaté leur nombre massif de membres. Mais c'est là que les problèmes commencent..."
+
 +++
 
 [[Texte en format A5 page par page]](/sans-treve-media/articles/brochure-10s-mgl.pdf)

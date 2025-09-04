@@ -30,12 +30,11 @@ Un effort d'accessibilité doit être fait dans toutes les productions. C'est-à
 Nous ne souhaitons pas publier de textes qui seraient de simples appels à évènements, de la théorie pour de la théorie, des articles d'actualité sans perspectives organisationnelles, des critiques sans alternatives ou encore des règlements de compte de milieu.
 
 
-
-Tous les articles doivent être signés (avec un faux nom ou vrai nom, un nom de groupe, des initiales, etc.).
-
+Tous les articles doivent être signés (avec un faux nom ou vrai nom, un nom de groupe, des initiales, etc.) et être accompagnés d’une image format paysage (1/1.91) pour la couverture.
 
 
 Si vous avez des questions ou souhaitez contribuer au média, à sa diffusion, ou simplement soutenir l'initiative et discuter des textes vous pouvez rejoindre [cette boucle signal.](https://signal.group/#CjQKICHs9O4EBLqjHJEmLw04KCrzjIpftbtAEEujx96uM1WmEhBEN78\_7uEnJUtlWFuPggdX)
+
 
 Cette boucle n'a pas pour but de valider les contributions. Pour contribuer, envoyer un mail à sans-treve@proton.me.
 

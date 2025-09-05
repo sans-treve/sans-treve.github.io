@@ -3,7 +3,7 @@ date = '2025-09-05T15:55:45+02:00'
 draft = false
 title = 'Rien à déclarer : Un podcast qui donne la parole à celles et ceux qui ont vécu la garde à vue'
 author = '@rien_a_declarer_podcast'
-image = "/sans-treve-media/articles/rien-a-declarer.jpg"
+image = "/sans-treve-media/articles/rien-a-declarer.jpeg"
 summary = "Que se passe-t-il dans un commissariat ? Comment se défendre face à la police en garde à vue ? Et que peut nous apporter l'expérience passée des camarades ? Nous vous présentons 'Rien À Déclarer', un podcast militant donnant la parole à celles et ceux qui ont vécu la garde a vue. Trois épisodes sont déjà disponibles et deux supplémentaires sortiront prochainement."
 +++
 

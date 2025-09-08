@@ -25,4 +25,3 @@ Bonne écoute !
 Disponible sur Spotify, Deezer, Soundcloud et Youtube : https://linktr.ee/podcastrad
 
 Instagram : rien_a_declarer_podcast
-

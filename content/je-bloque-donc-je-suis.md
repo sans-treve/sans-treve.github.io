@@ -37,7 +37,7 @@ Le premier est le plus évident. Bloquer, oui, mais pour quoi faire ? Une chose 
 
 
 > La police arrive ? Que peut-elle faire face à 10.000 personnes sur une 4 voies ? On se défend, on se déplace, on revient, on évite les arrestations. Autant de fois que nécessaire. Jusqu’à satisfaction des revendications. [...]
-
+>
 > Tout cela ne peut marcher qu’à deux conditions : si ces blocages sont coordonnés, car la police ne peut pas débloquer des dizaines de périphériques en même temps, et durables, pour avoir un véritable impact sur l’économie.
 
 
@@ -73,7 +73,7 @@ L'autre élément éculé de la boîte à outils du parfait activiste, mis en av
 
 
 > Sept ans après les gilets jaunes, des dizaines de milliers de personnes se disent prêtes à sortir pour se battre. Il faut les suivre et faire comme eux : se rencontrer, mettre des mots sur nos frustrations et nos aspirations, s’organiser pour occuper les places et bloquer les routes, *écarter les médiations et les porte-paroles*, refuser de payer et se servir pour répondre à nos besoins, dépasser les slogans réchauffés de la gauche et les logiques de récupération et d’intégration à la politique traditionnelle.
-
+>
 > Si les gens rejettent massivement la politique telle qu’elle existe, ce n’est ni par cynisme ni par immaturité : c’est parce qu’ils ont compris que cette politique les exclut des décisions qui les concernent directement, et qu’il aspirent à *construire une autre communauté politique et inventer d’autres règles du jeu* (souligné par nous), par eux-mêmes et pour eux-mêmes .[^12].
 
 
@@ -178,7 +178,7 @@ Contre cette pensée en boîte à outils, nous devons résolument renouer avec l
 
 [^9]: [Groupe révolutionnaire charlatan, *Le 10 septembre aura-t-il lieu ?*](https://lundi.am/Le-10-septembre-aura-t-il-lieu)
 
-[^10]: > "Mais si les luttes sont théoriciennes cela implique qu’elles sont très « bavardes », on y parle de tout et de n’importe quoi mais jamais par hasard ni à tort et à travers." [Roland Simon, "Que faisons-nous ?" in *Meeting* n°4](https://libcom.org/library/que-faisons-nous-rs)
+[^10]: "Mais si les luttes sont théoriciennes cela implique qu’elles sont très « bavardes », on y parle de tout et de n’importe quoi mais jamais par hasard ni à tort et à travers." [Roland Simon, "Que faisons-nous ?" in *Meeting* n°4](https://libcom.org/library/que-faisons-nous-rs)
 
 [^11]: On notera avec amusement que même Jean-Luc Mélenchon vante à présent les bienfaits de l'auto-organisation. Que ce soit sincère ou non ne nous concerne pas, nous remarquons que les arguments sont les mêmes partout.
 

@@ -1,7 +1,7 @@
 +++
 date = '2025-09-08T16:07:47+02:00'
 draft = false
-title = 'Je bloque donc je suis - Sur la critique des illusions de septembre'
+title = 'Je bloque donc je suis - Pour la critique des illusions de septembre'
 author = 'des empêcheurs de tourner en rond'
 image = "/sans-treve-media/articles/je-bloque-donc-je-suis.webp"
 summary = "Sans même avoir commencé, le mouvement qui s'annonce n'en finit pas de soulever l'enthousiasme malgré un arrière goût de réchauffé. D'AG en AG, on se prépare pour la date fatidique mais on peine déjà à comprendre quelles sont les réelles perspectives. Dans ce texte, nous prenons le contre-pied de l'idéologie du blocage et appelons à la critique de l'activité pratique du militantisme autonome."

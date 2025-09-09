@@ -7,6 +7,9 @@ image = "/sans-treve-media/articles/je-bloque-donc-je-suis.webp"
 summary = "Sans même avoir commencé, le mouvement qui s'annonce n'en finit pas de soulever l'enthousiasme malgré un arrière goût de réchauffé. D'AG en AG, on se prépare pour la date fatidique mais on peine déjà à comprendre quelles sont les réelles perspectives. Dans ce texte, nous prenons le contre-pied de l'idéologie du blocage et appelons à la critique de l'activité pratique du militantisme autonome."
 +++
 
+[[Texte en format A5 page par page]](/sans-treve-media/articles/brochure-10s-jebloquedoncjesuis.pdf)
+[[Texte en format brochure imprimable]](/sans-treve-media/articles/brochure-10s-jebloquedoncjesuis-impression.pdf)
+
 *Sans même avoir commencé, le mouvement qui s'annonce n'en finit pas de soulever l'enthousiasme malgré un arrière goût de réchauffé. D'AG en AG, on se prépare pour la date fatidique mais on peine déjà à comprendre quelles sont les réelles perspectives. Dans ce texte, nous prenons le contre-pied de l'idéologie du blocage et appelons à la critique de l'activité pratique du militantisme autonome.*
 
 Après une fin d'année militante marquée par l'absence de mouvement social, nos milieux politiques se creusent la tête pour trouver quelque chose à faire dans ce qu'ils interprètent comme le calme obligé avant la tempête. Quoi de mieux que le spectre des Gilets jaunes, aperçu au travers d'appels sur les réseaux sociaux aussi inattendus que fourre-tout, pour raviver la flamme du stade suprême de l'aliénation : le militantisme[^16] ?

@@ -7,6 +7,8 @@ image = "/sans-treve-media/articles/la-debacle/la-debacle.jpg"
 summary = "Étant donné la situation dans laquelle elles se trouvent, les classes moyennes d’encadrement sont poussées à la radicalisation et émettent régulièrement des appels incantatoires qui n'engagent que ceux qui ont encore de bonnes raisons d’y croire. Les réponses organisationnelles toutes faites apportées suite à la séquence ratée du 10 septembre réduisent le problème à de pures considérations tactiques. Or, les questions tactiques sont surdéterminées par des rapports de classe ; ce qui s’est passé dans les assemblées et dans la rue n’est que l’expression d’une lutte de classes : celle des classes d’encadrement pour la reconquête d’une hégémonie politique."
 +++
 
+[[Texte en format A5 page par page]](/sans-treve-media/articles/la-debacle/brochure-10s-debacle.pdf)
+[[Texte en format brochure imprimable]](/sans-treve-media/articles/la-debacle/brochure-10s-debacle-impression.pdf)
 
 *Étant donné la situation dans laquelle elles se trouvent, les classes moyennes d’encadrement sont poussées à la radicalisation et émettent régulièrement des appels incantatoires qui n'engagent que ceux qui ont encore de bonnes raisons d’y croire. Les réponses organisationnelles toutes faites apportées suite à la séquence ratée du 10 septembre réduisent le problème à de pures considérations tactiques. Or, les questions tactiques sont surdéterminées par des rapports de classe ; ce qui s’est passé dans les assemblées et dans la rue n’est que l’expression d’une lutte de classes : celle des classes d’encadrement pour la reconquête d’une hégémonie politique.*
 
